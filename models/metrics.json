@@ -1,0 +1,20 @@
+{
+  "trained_at": "2026-10-28 18:24",
+  "train_rows": 5928192,
+  "test_rows": 446208,
+  "zones": 664,
+  "cities": 118,
+  "test_window_days": 28,
+  "mae": 3.47,
+  "rmse": 4.39,
+  "r2": 0.9339,
+  "baseline_mae": 4.04,
+  "baseline_mae_rainy": 9.65,
+  "mae_rainy": 3.74,
+  "level_accuracy": 0.9058,
+  "level_within_one": 1.0,
+  "interval_80_coverage": 0.8011,
+  "peak_hour_within_1h": 0.8915,
+  "data_source": "synthetic (calibrated simulator) - see README",
+  "train_seconds": 522.8
+}

@@ -1,0 +1,6642 @@
+[
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "CBD",
+  "location_name": "Delhi - CBD",
+  "road_name": "CBD zone, Delhi",
+  "latitude": 28.60731,
+  "longitude": 77.18659
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Delhi - Railway Station",
+  "road_name": "Railway Station zone, Delhi",
+  "latitude": 28.6132,
+  "longitude": 77.25688
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "Market Area",
+  "location_name": "Delhi - Market Area",
+  "road_name": "Market Area zone, Delhi",
+  "latitude": 28.60063,
+  "longitude": 77.15672
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Delhi - Ring Road",
+  "road_name": "Delhi Ring Road",
+  "latitude": 28.64958,
+  "longitude": 77.32244
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Delhi - Highway Bypass",
+  "road_name": "Delhi Bypass (NH)",
+  "latitude": 28.62651,
+  "longitude": 77.05524
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Delhi - Residential Arterial",
+  "road_name": "Residential Arterial zone, Delhi",
+  "latitude": 28.68109,
+  "longitude": 77.26764
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Delhi - IT / Business Park",
+  "road_name": "IT / Business Park zone, Delhi",
+  "latitude": 28.71184,
+  "longitude": 77.27628
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Delhi - Airport Corridor",
+  "road_name": "Delhi Airport Road",
+  "latitude": 28.6893,
+  "longitude": 77.09151
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "Old City",
+  "location_name": "Delhi - Old City",
+  "road_name": "Old City zone, Delhi",
+  "latitude": 28.63963,
+  "longitude": 77.23959
+ },
+ {
+  "city": "Delhi",
+  "state": "Delhi",
+  "population_m": 32.0,
+  "zone_kind": "University / Hospital",
+  "location_name": "Delhi - University / Hospital",
+  "road_name": "University / Hospital zone, Delhi",
+  "latitude": 28.63069,
+  "longitude": 77.13991
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "CBD",
+  "location_name": "Mumbai - CBD",
+  "road_name": "CBD zone, Mumbai",
+  "latitude": 19.07515,
+  "longitude": 72.8598
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Mumbai - Railway Station",
+  "road_name": "Railway Station zone, Mumbai",
+  "latitude": 19.09069,
+  "longitude": 72.84621
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "Market Area",
+  "location_name": "Mumbai - Market Area",
+  "road_name": "Market Area zone, Mumbai",
+  "latitude": 19.11639,
+  "longitude": 72.88852
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Mumbai - Ring Road",
+  "road_name": "Mumbai Ring Road",
+  "latitude": 19.15424,
+  "longitude": 72.91366
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Mumbai - Highway Bypass",
+  "road_name": "Mumbai Bypass (NH)",
+  "latitude": 19.17388,
+  "longitude": 72.87049
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Mumbai - Residential Arterial",
+  "road_name": "Residential Arterial zone, Mumbai",
+  "latitude": 19.02826,
+  "longitude": 72.85961
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Mumbai - IT / Business Park",
+  "road_name": "IT / Business Park zone, Mumbai",
+  "latitude": 19.14328,
+  "longitude": 72.90862
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Mumbai - Airport Corridor",
+  "road_name": "Mumbai Airport Road",
+  "latitude": 19.18023,
+  "longitude": 72.87447
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "Old City",
+  "location_name": "Mumbai - Old City",
+  "road_name": "Old City zone, Mumbai",
+  "latitude": 19.0991,
+  "longitude": 72.86273
+ },
+ {
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "population_m": 21.0,
+  "zone_kind": "University / Hospital",
+  "location_name": "Mumbai - University / Hospital",
+  "road_name": "University / Hospital zone, Mumbai",
+  "latitude": 19.02613,
+  "longitude": 72.89352
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "CBD",
+  "location_name": "Bengaluru - CBD",
+  "road_name": "CBD zone, Bengaluru",
+  "latitude": 12.96069,
+  "longitude": 77.58108
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Bengaluru - Railway Station",
+  "road_name": "Railway Station zone, Bengaluru",
+  "latitude": 12.97037,
+  "longitude": 77.61614
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "Market Area",
+  "location_name": "Bengaluru - Market Area",
+  "road_name": "Market Area zone, Bengaluru",
+  "latitude": 12.99447,
+  "longitude": 77.61941
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Bengaluru - Ring Road",
+  "road_name": "Bengaluru Ring Road",
+  "latitude": 12.92414,
+  "longitude": 77.54283
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bengaluru - Highway Bypass",
+  "road_name": "Bengaluru Bypass (NH)",
+  "latitude": 12.98504,
+  "longitude": 77.48056
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Bengaluru - Residential Arterial",
+  "road_name": "Residential Arterial zone, Bengaluru",
+  "latitude": 12.95305,
+  "longitude": 77.54146
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Bengaluru - IT / Business Park",
+  "road_name": "IT / Business Park zone, Bengaluru",
+  "latitude": 12.94547,
+  "longitude": 77.52118
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Bengaluru - Airport Corridor",
+  "road_name": "Bengaluru Airport Road",
+  "latitude": 12.90983,
+  "longitude": 77.53143
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "Old City",
+  "location_name": "Bengaluru - Old City",
+  "road_name": "Old City zone, Bengaluru",
+  "latitude": 12.94704,
+  "longitude": 77.60224
+ },
+ {
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "population_m": 13.0,
+  "zone_kind": "University / Hospital",
+  "location_name": "Bengaluru - University / Hospital",
+  "road_name": "University / Hospital zone, Bengaluru",
+  "latitude": 13.0175,
+  "longitude": 77.5833
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "CBD",
+  "location_name": "Kolkata - CBD",
+  "road_name": "CBD zone, Kolkata",
+  "latitude": 22.58347,
+  "longitude": 88.36519
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Kolkata - Railway Station",
+  "road_name": "Railway Station zone, Kolkata",
+  "latitude": 22.58691,
+  "longitude": 88.32812
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "Market Area",
+  "location_name": "Kolkata - Market Area",
+  "road_name": "Market Area zone, Kolkata",
+  "latitude": 22.60469,
+  "longitude": 88.35988
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Kolkata - Ring Road",
+  "road_name": "Kolkata Ring Road",
+  "latitude": 22.49196,
+  "longitude": 88.39082
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kolkata - Highway Bypass",
+  "road_name": "Kolkata Bypass (NH)",
+  "latitude": 22.52548,
+  "longitude": 88.27008
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Kolkata - Residential Arterial",
+  "road_name": "Residential Arterial zone, Kolkata",
+  "latitude": 22.58265,
+  "longitude": 88.41383
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Kolkata - IT / Business Park",
+  "road_name": "IT / Business Park zone, Kolkata",
+  "latitude": 22.63278,
+  "longitude": 88.32317
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Kolkata - Airport Corridor",
+  "road_name": "Kolkata Airport Road",
+  "latitude": 22.47951,
+  "longitude": 88.34518
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "Old City",
+  "location_name": "Kolkata - Old City",
+  "road_name": "Old City zone, Kolkata",
+  "latitude": 22.57913,
+  "longitude": 88.38636
+ },
+ {
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "population_m": 15.0,
+  "zone_kind": "University / Hospital",
+  "location_name": "Kolkata - University / Hospital",
+  "road_name": "University / Hospital zone, Kolkata",
+  "latitude": 22.6225,
+  "longitude": 88.35284
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "CBD",
+  "location_name": "Chennai - CBD",
+  "road_name": "CBD zone, Chennai",
+  "latitude": 13.07595,
+  "longitude": 80.25832
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Chennai - Railway Station",
+  "road_name": "Railway Station zone, Chennai",
+  "latitude": 13.10167,
+  "longitude": 80.28239
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "Market Area",
+  "location_name": "Chennai - Market Area",
+  "road_name": "Market Area zone, Chennai",
+  "latitude": 13.04725,
+  "longitude": 80.25852
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Chennai - Ring Road",
+  "road_name": "Chennai Ring Road",
+  "latitude": 13.15337,
+  "longitude": 80.27972
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Chennai - Highway Bypass",
+  "road_name": "Chennai Bypass (NH)",
+  "latitude": 13.11144,
+  "longitude": 80.20386
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Chennai - Residential Arterial",
+  "road_name": "Residential Arterial zone, Chennai",
+  "latitude": 13.11063,
+  "longitude": 80.2379
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Chennai - IT / Business Park",
+  "road_name": "IT / Business Park zone, Chennai",
+  "latitude": 13.02401,
+  "longitude": 80.22881
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Chennai - Airport Corridor",
+  "road_name": "Chennai Airport Road",
+  "latitude": 13.13729,
+  "longitude": 80.19533
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "Old City",
+  "location_name": "Chennai - Old City",
+  "road_name": "Old City zone, Chennai",
+  "latitude": 13.05828,
+  "longitude": 80.26102
+ },
+ {
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "population_m": 11.0,
+  "zone_kind": "University / Hospital",
+  "location_name": "Chennai - University / Hospital",
+  "road_name": "University / Hospital zone, Chennai",
+  "latitude": 13.12146,
+  "longitude": 80.24234
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "CBD",
+  "location_name": "Hyderabad - CBD",
+  "road_name": "CBD zone, Hyderabad",
+  "latitude": 17.37647,
+  "longitude": 78.49213
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Hyderabad - Railway Station",
+  "road_name": "Railway Station zone, Hyderabad",
+  "latitude": 17.37629,
+  "longitude": 78.46525
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "Market Area",
+  "location_name": "Hyderabad - Market Area",
+  "road_name": "Market Area zone, Hyderabad",
+  "latitude": 17.35985,
+  "longitude": 78.47045
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Hyderabad - Ring Road",
+  "road_name": "Hyderabad Ring Road",
+  "latitude": 17.44543,
+  "longitude": 78.52349
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Hyderabad - Highway Bypass",
+  "road_name": "Hyderabad Bypass (NH)",
+  "latitude": 17.33191,
+  "longitude": 78.56099
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Hyderabad - Residential Arterial",
+  "road_name": "Residential Arterial zone, Hyderabad",
+  "latitude": 17.3959,
+  "longitude": 78.54471
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Hyderabad - IT / Business Park",
+  "road_name": "IT / Business Park zone, Hyderabad",
+  "latitude": 17.44047,
+  "longitude": 78.53193
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Hyderabad - Airport Corridor",
+  "road_name": "Hyderabad Airport Road",
+  "latitude": 17.43575,
+  "longitude": 78.55558
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "Old City",
+  "location_name": "Hyderabad - Old City",
+  "road_name": "Old City zone, Hyderabad",
+  "latitude": 17.36787,
+  "longitude": 78.49357
+ },
+ {
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "population_m": 10.5,
+  "zone_kind": "University / Hospital",
+  "location_name": "Hyderabad - University / Hospital",
+  "road_name": "University / Hospital zone, Hyderabad",
+  "latitude": 17.40016,
+  "longitude": 78.44328
+ },
+ {
+  "city": "Pune",
+  "state": "Maharashtra",
+  "population_m": 7.0,
+  "zone_kind": "CBD",
+  "location_name": "Pune - CBD",
+  "road_name": "CBD zone, Pune",
+  "latitude": 18.5198,
+  "longitude": 73.84806
+ },
+ {
+  "city": "Pune",
+  "state": "Maharashtra",
+  "population_m": 7.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Pune - Railway Station",
+  "road_name": "Railway Station zone, Pune",
+  "latitude": 18.49767,
+  "longitude": 73.85843
+ },
+ {
+  "city": "Pune",
+  "state": "Maharashtra",
+  "population_m": 7.0,
+  "zone_kind": "Market Area",
+  "location_name": "Pune - Market Area",
+  "road_name": "Market Area zone, Pune",
+  "latitude": 18.5054,
+  "longitude": 73.83373
+ },
+ {
+  "city": "Pune",
+  "state": "Maharashtra",
+  "population_m": 7.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Pune - Ring Road",
+  "road_name": "Pune Ring Road",
+  "latitude": 18.4754,
+  "longitude": 73.87937
+ },
+ {
+  "city": "Pune",
+  "state": "Maharashtra",
+  "population_m": 7.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Pune - Highway Bypass",
+  "road_name": "Pune Bypass (NH)",
+  "latitude": 18.59766,
+  "longitude": 73.81854
+ },
+ {
+  "city": "Pune",
+  "state": "Maharashtra",
+  "population_m": 7.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Pune - Residential Arterial",
+  "road_name": "Residential Arterial zone, Pune",
+  "latitude": 18.518,
+  "longitude": 73.91135
+ },
+ {
+  "city": "Pune",
+  "state": "Maharashtra",
+  "population_m": 7.0,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Pune - IT / Business Park",
+  "road_name": "IT / Business Park zone, Pune",
+  "latitude": 18.46481,
+  "longitude": 73.83244
+ },
+ {
+  "city": "Pune",
+  "state": "Maharashtra",
+  "population_m": 7.0,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Pune - Airport Corridor",
+  "road_name": "Pune Airport Road",
+  "latitude": 18.49936,
+  "longitude": 73.93564
+ },
+ {
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "population_m": 8.0,
+  "zone_kind": "CBD",
+  "location_name": "Ahmedabad - CBD",
+  "road_name": "CBD zone, Ahmedabad",
+  "latitude": 23.02039,
+  "longitude": 72.55527
+ },
+ {
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "population_m": 8.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Ahmedabad - Railway Station",
+  "road_name": "Railway Station zone, Ahmedabad",
+  "latitude": 22.99978,
+  "longitude": 72.59189
+ },
+ {
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "population_m": 8.0,
+  "zone_kind": "Market Area",
+  "location_name": "Ahmedabad - Market Area",
+  "road_name": "Market Area zone, Ahmedabad",
+  "latitude": 22.99428,
+  "longitude": 72.57409
+ },
+ {
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "population_m": 8.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Ahmedabad - Ring Road",
+  "road_name": "Ahmedabad Ring Road",
+  "latitude": 23.06297,
+  "longitude": 72.61778
+ },
+ {
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "population_m": 8.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Ahmedabad - Highway Bypass",
+  "road_name": "Ahmedabad Bypass (NH)",
+  "latitude": 23.09168,
+  "longitude": 72.60254
+ },
+ {
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "population_m": 8.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Ahmedabad - Residential Arterial",
+  "road_name": "Residential Arterial zone, Ahmedabad",
+  "latitude": 22.9948,
+  "longitude": 72.53372
+ },
+ {
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "population_m": 8.0,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Ahmedabad - IT / Business Park",
+  "road_name": "IT / Business Park zone, Ahmedabad",
+  "latitude": 22.97177,
+  "longitude": 72.59787
+ },
+ {
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "population_m": 8.0,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Ahmedabad - Airport Corridor",
+  "road_name": "Ahmedabad Airport Road",
+  "latitude": 23.07287,
+  "longitude": 72.51972
+ },
+ {
+  "city": "Surat",
+  "state": "Gujarat",
+  "population_m": 7.5,
+  "zone_kind": "CBD",
+  "location_name": "Surat - CBD",
+  "road_name": "CBD zone, Surat",
+  "latitude": 21.16234,
+  "longitude": 72.84085
+ },
+ {
+  "city": "Surat",
+  "state": "Gujarat",
+  "population_m": 7.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Surat - Railway Station",
+  "road_name": "Railway Station zone, Surat",
+  "latitude": 21.1838,
+  "longitude": 72.84773
+ },
+ {
+  "city": "Surat",
+  "state": "Gujarat",
+  "population_m": 7.5,
+  "zone_kind": "Market Area",
+  "location_name": "Surat - Market Area",
+  "road_name": "Market Area zone, Surat",
+  "latitude": 21.14971,
+  "longitude": 72.84499
+ },
+ {
+  "city": "Surat",
+  "state": "Gujarat",
+  "population_m": 7.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Surat - Ring Road",
+  "road_name": "Surat Ring Road",
+  "latitude": 21.2181,
+  "longitude": 72.81745
+ },
+ {
+  "city": "Surat",
+  "state": "Gujarat",
+  "population_m": 7.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Surat - Highway Bypass",
+  "road_name": "Surat Bypass (NH)",
+  "latitude": 21.24089,
+  "longitude": 72.81901
+ },
+ {
+  "city": "Surat",
+  "state": "Gujarat",
+  "population_m": 7.5,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Surat - Residential Arterial",
+  "road_name": "Residential Arterial zone, Surat",
+  "latitude": 21.1287,
+  "longitude": 72.83293
+ },
+ {
+  "city": "Surat",
+  "state": "Gujarat",
+  "population_m": 7.5,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Surat - IT / Business Park",
+  "road_name": "IT / Business Park zone, Surat",
+  "latitude": 21.14531,
+  "longitude": 72.8885
+ },
+ {
+  "city": "Surat",
+  "state": "Gujarat",
+  "population_m": 7.5,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Surat - Airport Corridor",
+  "road_name": "Surat Airport Road",
+  "latitude": 21.1593,
+  "longitude": 72.9104
+ },
+ {
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population_m": 4.0,
+  "zone_kind": "CBD",
+  "location_name": "Jaipur - CBD",
+  "road_name": "CBD zone, Jaipur",
+  "latitude": 26.91115,
+  "longitude": 75.79975
+ },
+ {
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population_m": 4.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Jaipur - Railway Station",
+  "road_name": "Railway Station zone, Jaipur",
+  "latitude": 26.88958,
+  "longitude": 75.79644
+ },
+ {
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population_m": 4.0,
+  "zone_kind": "Market Area",
+  "location_name": "Jaipur - Market Area",
+  "road_name": "Market Area zone, Jaipur",
+  "latitude": 26.91809,
+  "longitude": 75.81469
+ },
+ {
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population_m": 4.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Jaipur - Ring Road",
+  "road_name": "Jaipur Ring Road",
+  "latitude": 26.93272,
+  "longitude": 75.75038
+ },
+ {
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population_m": 4.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Jaipur - Highway Bypass",
+  "road_name": "Jaipur Bypass (NH)",
+  "latitude": 26.96426,
+  "longitude": 75.76233
+ },
+ {
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population_m": 4.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Jaipur - Residential Arterial",
+  "road_name": "Residential Arterial zone, Jaipur",
+  "latitude": 26.87181,
+  "longitude": 75.79315
+ },
+ {
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population_m": 4.0,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Jaipur - IT / Business Park",
+  "road_name": "IT / Business Park zone, Jaipur",
+  "latitude": 26.88837,
+  "longitude": 75.73942
+ },
+ {
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "population_m": 4.0,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Jaipur - Airport Corridor",
+  "road_name": "Jaipur Airport Road",
+  "latitude": 26.85901,
+  "longitude": 75.7676
+ },
+ {
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "population_m": 3.9,
+  "zone_kind": "CBD",
+  "location_name": "Lucknow - CBD",
+  "road_name": "CBD zone, Lucknow",
+  "latitude": 26.85966,
+  "longitude": 80.9543
+ },
+ {
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "population_m": 3.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Lucknow - Railway Station",
+  "road_name": "Railway Station zone, Lucknow",
+  "latitude": 26.83109,
+  "longitude": 80.95746
+ },
+ {
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "population_m": 3.9,
+  "zone_kind": "Market Area",
+  "location_name": "Lucknow - Market Area",
+  "road_name": "Market Area zone, Lucknow",
+  "latitude": 26.83631,
+  "longitude": 80.96756
+ },
+ {
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "population_m": 3.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Lucknow - Ring Road",
+  "road_name": "Lucknow Ring Road",
+  "latitude": 26.84594,
+  "longitude": 80.90485
+ },
+ {
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "population_m": 3.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Lucknow - Highway Bypass",
+  "road_name": "Lucknow Bypass (NH)",
+  "latitude": 26.83507,
+  "longitude": 80.88885
+ },
+ {
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "population_m": 3.9,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Lucknow - Residential Arterial",
+  "road_name": "Residential Arterial zone, Lucknow",
+  "latitude": 26.87578,
+  "longitude": 80.97796
+ },
+ {
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "population_m": 3.9,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Lucknow - IT / Business Park",
+  "road_name": "IT / Business Park zone, Lucknow",
+  "latitude": 26.87379,
+  "longitude": 80.89851
+ },
+ {
+  "city": "Lucknow",
+  "state": "Uttar Pradesh",
+  "population_m": 3.9,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Lucknow - Airport Corridor",
+  "road_name": "Lucknow Airport Road",
+  "latitude": 26.81791,
+  "longitude": 81.01558
+ },
+ {
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 3.2,
+  "zone_kind": "CBD",
+  "location_name": "Kanpur - CBD",
+  "road_name": "CBD zone, Kanpur",
+  "latitude": 26.44491,
+  "longitude": 80.34245
+ },
+ {
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 3.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Kanpur - Railway Station",
+  "road_name": "Railway Station zone, Kanpur",
+  "latitude": 26.47118,
+  "longitude": 80.35421
+ },
+ {
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 3.2,
+  "zone_kind": "Market Area",
+  "location_name": "Kanpur - Market Area",
+  "road_name": "Market Area zone, Kanpur",
+  "latitude": 26.47128,
+  "longitude": 80.33658
+ },
+ {
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 3.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Kanpur - Ring Road",
+  "road_name": "Kanpur Ring Road",
+  "latitude": 26.48656,
+  "longitude": 80.37056
+ },
+ {
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 3.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kanpur - Highway Bypass",
+  "road_name": "Kanpur Bypass (NH)",
+  "latitude": 26.44616,
+  "longitude": 80.2832
+ },
+ {
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 3.2,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Kanpur - Residential Arterial",
+  "road_name": "Residential Arterial zone, Kanpur",
+  "latitude": 26.46739,
+  "longitude": 80.31147
+ },
+ {
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 3.2,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Kanpur - IT / Business Park",
+  "road_name": "IT / Business Park zone, Kanpur",
+  "latitude": 26.4305,
+  "longitude": 80.30912
+ },
+ {
+  "city": "Kanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 3.2,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Kanpur - Airport Corridor",
+  "road_name": "Kanpur Airport Road",
+  "latitude": 26.49695,
+  "longitude": 80.30342
+ },
+ {
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "population_m": 2.9,
+  "zone_kind": "CBD",
+  "location_name": "Nagpur - CBD",
+  "road_name": "CBD zone, Nagpur",
+  "latitude": 21.14207,
+  "longitude": 79.09735
+ },
+ {
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "population_m": 2.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Nagpur - Railway Station",
+  "road_name": "Railway Station zone, Nagpur",
+  "latitude": 21.15503,
+  "longitude": 79.07062
+ },
+ {
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "population_m": 2.9,
+  "zone_kind": "Market Area",
+  "location_name": "Nagpur - Market Area",
+  "road_name": "Market Area zone, Nagpur",
+  "latitude": 21.15254,
+  "longitude": 79.115
+ },
+ {
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "population_m": 2.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Nagpur - Ring Road",
+  "road_name": "Nagpur Ring Road",
+  "latitude": 21.16837,
+  "longitude": 79.04262
+ },
+ {
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "population_m": 2.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Nagpur - Highway Bypass",
+  "road_name": "Nagpur Bypass (NH)",
+  "latitude": 21.20177,
+  "longitude": 79.11268
+ },
+ {
+  "city": "Nagpur",
+  "state": "Maharashtra",
+  "population_m": 2.9,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Nagpur - Residential Arterial",
+  "road_name": "Residential Arterial zone, Nagpur",
+  "latitude": 21.15505,
+  "longitude": 79.12134
+ },
+ {
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population_m": 3.3,
+  "zone_kind": "CBD",
+  "location_name": "Indore - CBD",
+  "road_name": "CBD zone, Indore",
+  "latitude": 22.72475,
+  "longitude": 75.86857
+ },
+ {
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population_m": 3.3,
+  "zone_kind": "Railway Station",
+  "location_name": "Indore - Railway Station",
+  "road_name": "Railway Station zone, Indore",
+  "latitude": 22.69982,
+  "longitude": 75.86386
+ },
+ {
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population_m": 3.3,
+  "zone_kind": "Market Area",
+  "location_name": "Indore - Market Area",
+  "road_name": "Market Area zone, Indore",
+  "latitude": 22.69989,
+  "longitude": 75.8729
+ },
+ {
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population_m": 3.3,
+  "zone_kind": "Ring Road",
+  "location_name": "Indore - Ring Road",
+  "road_name": "Indore Ring Road",
+  "latitude": 22.67294,
+  "longitude": 75.86052
+ },
+ {
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population_m": 3.3,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Indore - Highway Bypass",
+  "road_name": "Indore Bypass (NH)",
+  "latitude": 22.68481,
+  "longitude": 75.92785
+ },
+ {
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population_m": 3.3,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Indore - Residential Arterial",
+  "road_name": "Residential Arterial zone, Indore",
+  "latitude": 22.74932,
+  "longitude": 75.84024
+ },
+ {
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population_m": 3.3,
+  "zone_kind": "IT / Business Park",
+  "location_name": "Indore - IT / Business Park",
+  "road_name": "IT / Business Park zone, Indore",
+  "latitude": 22.69938,
+  "longitude": 75.89848
+ },
+ {
+  "city": "Indore",
+  "state": "Madhya Pradesh",
+  "population_m": 3.3,
+  "zone_kind": "Airport Corridor",
+  "location_name": "Indore - Airport Corridor",
+  "road_name": "Indore Airport Road",
+  "latitude": 22.69112,
+  "longitude": 75.90675
+ },
+ {
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "CBD",
+  "location_name": "Bhopal - CBD",
+  "road_name": "CBD zone, Bhopal",
+  "latitude": 23.2578,
+  "longitude": 77.41801
+ },
+ {
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Bhopal - Railway Station",
+  "road_name": "Railway Station zone, Bhopal",
+  "latitude": 23.27631,
+  "longitude": 77.41787
+ },
+ {
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Market Area",
+  "location_name": "Bhopal - Market Area",
+  "road_name": "Market Area zone, Bhopal",
+  "latitude": 23.27588,
+  "longitude": 77.40237
+ },
+ {
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Bhopal - Ring Road",
+  "road_name": "Bhopal Ring Road",
+  "latitude": 23.24734,
+  "longitude": 77.44674
+ },
+ {
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bhopal - Highway Bypass",
+  "road_name": "Bhopal Bypass (NH)",
+  "latitude": 23.30646,
+  "longitude": 77.37396
+ },
+ {
+  "city": "Bhopal",
+  "state": "Madhya Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Bhopal - Residential Arterial",
+  "road_name": "Residential Arterial zone, Bhopal",
+  "latitude": 23.28461,
+  "longitude": 77.42426
+ },
+ {
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "CBD",
+  "location_name": "Visakhapatnam - CBD",
+  "road_name": "CBD zone, Visakhapatnam",
+  "latitude": 17.69193,
+  "longitude": 83.21021
+ },
+ {
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Visakhapatnam - Railway Station",
+  "road_name": "Railway Station zone, Visakhapatnam",
+  "latitude": 17.70505,
+  "longitude": 83.2118
+ },
+ {
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Market Area",
+  "location_name": "Visakhapatnam - Market Area",
+  "road_name": "Market Area zone, Visakhapatnam",
+  "latitude": 17.67564,
+  "longitude": 83.23108
+ },
+ {
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Visakhapatnam - Ring Road",
+  "road_name": "Visakhapatnam Ring Road",
+  "latitude": 17.72262,
+  "longitude": 83.20299
+ },
+ {
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Visakhapatnam - Highway Bypass",
+  "road_name": "Visakhapatnam Bypass (NH)",
+  "latitude": 17.67266,
+  "longitude": 83.15817
+ },
+ {
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "population_m": 2.4,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Visakhapatnam - Residential Arterial",
+  "road_name": "Residential Arterial zone, Visakhapatnam",
+  "latitude": 17.66419,
+  "longitude": 83.20452
+ },
+ {
+  "city": "Patna",
+  "state": "Bihar",
+  "population_m": 2.5,
+  "zone_kind": "CBD",
+  "location_name": "Patna - CBD",
+  "road_name": "CBD zone, Patna",
+  "latitude": 25.59716,
+  "longitude": 85.14582
+ },
+ {
+  "city": "Patna",
+  "state": "Bihar",
+  "population_m": 2.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Patna - Railway Station",
+  "road_name": "Railway Station zone, Patna",
+  "latitude": 25.59822,
+  "longitude": 85.15458
+ },
+ {
+  "city": "Patna",
+  "state": "Bihar",
+  "population_m": 2.5,
+  "zone_kind": "Market Area",
+  "location_name": "Patna - Market Area",
+  "road_name": "Market Area zone, Patna",
+  "latitude": 25.60422,
+  "longitude": 85.15204
+ },
+ {
+  "city": "Patna",
+  "state": "Bihar",
+  "population_m": 2.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Patna - Ring Road",
+  "road_name": "Patna Ring Road",
+  "latitude": 25.61724,
+  "longitude": 85.10912
+ },
+ {
+  "city": "Patna",
+  "state": "Bihar",
+  "population_m": 2.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Patna - Highway Bypass",
+  "road_name": "Patna Bypass (NH)",
+  "latitude": 25.54128,
+  "longitude": 85.12048
+ },
+ {
+  "city": "Patna",
+  "state": "Bihar",
+  "population_m": 2.5,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Patna - Residential Arterial",
+  "road_name": "Residential Arterial zone, Patna",
+  "latitude": 25.56197,
+  "longitude": 85.1655
+ },
+ {
+  "city": "Vadodara",
+  "state": "Gujarat",
+  "population_m": 2.2,
+  "zone_kind": "CBD",
+  "location_name": "Vadodara - CBD",
+  "road_name": "CBD zone, Vadodara",
+  "latitude": 22.31939,
+  "longitude": 73.17845
+ },
+ {
+  "city": "Vadodara",
+  "state": "Gujarat",
+  "population_m": 2.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Vadodara - Railway Station",
+  "road_name": "Railway Station zone, Vadodara",
+  "latitude": 22.32724,
+  "longitude": 73.17098
+ },
+ {
+  "city": "Vadodara",
+  "state": "Gujarat",
+  "population_m": 2.2,
+  "zone_kind": "Market Area",
+  "location_name": "Vadodara - Market Area",
+  "road_name": "Market Area zone, Vadodara",
+  "latitude": 22.30229,
+  "longitude": 73.19623
+ },
+ {
+  "city": "Vadodara",
+  "state": "Gujarat",
+  "population_m": 2.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Vadodara - Ring Road",
+  "road_name": "Vadodara Ring Road",
+  "latitude": 22.27839,
+  "longitude": 73.21299
+ },
+ {
+  "city": "Vadodara",
+  "state": "Gujarat",
+  "population_m": 2.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Vadodara - Highway Bypass",
+  "road_name": "Vadodara Bypass (NH)",
+  "latitude": 22.35483,
+  "longitude": 73.22109
+ },
+ {
+  "city": "Vadodara",
+  "state": "Gujarat",
+  "population_m": 2.2,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Vadodara - Residential Arterial",
+  "road_name": "Residential Arterial zone, Vadodara",
+  "latitude": 22.33579,
+  "longitude": 73.19372
+ },
+ {
+  "city": "Ghaziabad",
+  "state": "Uttar Pradesh",
+  "population_m": 2.8,
+  "zone_kind": "CBD",
+  "location_name": "Ghaziabad - CBD",
+  "road_name": "CBD zone, Ghaziabad",
+  "latitude": 28.66241,
+  "longitude": 77.45137
+ },
+ {
+  "city": "Ghaziabad",
+  "state": "Uttar Pradesh",
+  "population_m": 2.8,
+  "zone_kind": "Railway Station",
+  "location_name": "Ghaziabad - Railway Station",
+  "road_name": "Railway Station zone, Ghaziabad",
+  "latitude": 28.65359,
+  "longitude": 77.44157
+ },
+ {
+  "city": "Ghaziabad",
+  "state": "Uttar Pradesh",
+  "population_m": 2.8,
+  "zone_kind": "Market Area",
+  "location_name": "Ghaziabad - Market Area",
+  "road_name": "Market Area zone, Ghaziabad",
+  "latitude": 28.6883,
+  "longitude": 77.45569
+ },
+ {
+  "city": "Ghaziabad",
+  "state": "Uttar Pradesh",
+  "population_m": 2.8,
+  "zone_kind": "Ring Road",
+  "location_name": "Ghaziabad - Ring Road",
+  "road_name": "Ghaziabad Ring Road",
+  "latitude": 28.62603,
+  "longitude": 77.44362
+ },
+ {
+  "city": "Ghaziabad",
+  "state": "Uttar Pradesh",
+  "population_m": 2.8,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Ghaziabad - Highway Bypass",
+  "road_name": "Ghaziabad Bypass (NH)",
+  "latitude": 28.60444,
+  "longitude": 77.428
+ },
+ {
+  "city": "Ghaziabad",
+  "state": "Uttar Pradesh",
+  "population_m": 2.8,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Ghaziabad - Residential Arterial",
+  "road_name": "Residential Arterial zone, Ghaziabad",
+  "latitude": 28.68689,
+  "longitude": 77.4222
+ },
+ {
+  "city": "Ludhiana",
+  "state": "Punjab",
+  "population_m": 1.9,
+  "zone_kind": "CBD",
+  "location_name": "Ludhiana - CBD",
+  "road_name": "CBD zone, Ludhiana",
+  "latitude": 30.89438,
+  "longitude": 75.86582
+ },
+ {
+  "city": "Ludhiana",
+  "state": "Punjab",
+  "population_m": 1.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Ludhiana - Railway Station",
+  "road_name": "Railway Station zone, Ludhiana",
+  "latitude": 30.9102,
+  "longitude": 75.87332
+ },
+ {
+  "city": "Ludhiana",
+  "state": "Punjab",
+  "population_m": 1.9,
+  "zone_kind": "Market Area",
+  "location_name": "Ludhiana - Market Area",
+  "road_name": "Market Area zone, Ludhiana",
+  "latitude": 30.91723,
+  "longitude": 75.85898
+ },
+ {
+  "city": "Ludhiana",
+  "state": "Punjab",
+  "population_m": 1.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Ludhiana - Ring Road",
+  "road_name": "Ludhiana Ring Road",
+  "latitude": 30.9231,
+  "longitude": 75.89291
+ },
+ {
+  "city": "Ludhiana",
+  "state": "Punjab",
+  "population_m": 1.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Ludhiana - Highway Bypass",
+  "road_name": "Ludhiana Bypass (NH)",
+  "latitude": 30.95612,
+  "longitude": 75.86098
+ },
+ {
+  "city": "Ludhiana",
+  "state": "Punjab",
+  "population_m": 1.9,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Ludhiana - Residential Arterial",
+  "road_name": "Residential Arterial zone, Ludhiana",
+  "latitude": 30.91542,
+  "longitude": 75.88996
+ },
+ {
+  "city": "Agra",
+  "state": "Uttar Pradesh",
+  "population_m": 1.9,
+  "zone_kind": "CBD",
+  "location_name": "Agra - CBD",
+  "road_name": "CBD zone, Agra",
+  "latitude": 27.18458,
+  "longitude": 78.00145
+ },
+ {
+  "city": "Agra",
+  "state": "Uttar Pradesh",
+  "population_m": 1.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Agra - Railway Station",
+  "road_name": "Railway Station zone, Agra",
+  "latitude": 27.16499,
+  "longitude": 78.00088
+ },
+ {
+  "city": "Agra",
+  "state": "Uttar Pradesh",
+  "population_m": 1.9,
+  "zone_kind": "Market Area",
+  "location_name": "Agra - Market Area",
+  "road_name": "Market Area zone, Agra",
+  "latitude": 27.1676,
+  "longitude": 77.9939
+ },
+ {
+  "city": "Agra",
+  "state": "Uttar Pradesh",
+  "population_m": 1.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Agra - Ring Road",
+  "road_name": "Agra Ring Road",
+  "latitude": 27.14737,
+  "longitude": 78.00166
+ },
+ {
+  "city": "Agra",
+  "state": "Uttar Pradesh",
+  "population_m": 1.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Agra - Highway Bypass",
+  "road_name": "Agra Bypass (NH)",
+  "latitude": 27.14665,
+  "longitude": 77.9721
+ },
+ {
+  "city": "Agra",
+  "state": "Uttar Pradesh",
+  "population_m": 1.9,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Agra - Residential Arterial",
+  "road_name": "Residential Arterial zone, Agra",
+  "latitude": 27.17089,
+  "longitude": 77.97403
+ },
+ {
+  "city": "Nashik",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "CBD",
+  "location_name": "Nashik - CBD",
+  "road_name": "CBD zone, Nashik",
+  "latitude": 20.00472,
+  "longitude": 73.79778
+ },
+ {
+  "city": "Nashik",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Nashik - Railway Station",
+  "road_name": "Railway Station zone, Nashik",
+  "latitude": 19.98498,
+  "longitude": 73.78228
+ },
+ {
+  "city": "Nashik",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Market Area",
+  "location_name": "Nashik - Market Area",
+  "road_name": "Market Area zone, Nashik",
+  "latitude": 19.98,
+  "longitude": 73.7927
+ },
+ {
+  "city": "Nashik",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Nashik - Ring Road",
+  "road_name": "Nashik Ring Road",
+  "latitude": 19.96694,
+  "longitude": 73.80246
+ },
+ {
+  "city": "Nashik",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Nashik - Highway Bypass",
+  "road_name": "Nashik Bypass (NH)",
+  "latitude": 20.0462,
+  "longitude": 73.75701
+ },
+ {
+  "city": "Nashik",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Nashik - Residential Arterial",
+  "road_name": "Residential Arterial zone, Nashik",
+  "latitude": 20.03016,
+  "longitude": 73.77727
+ },
+ {
+  "city": "Faridabad",
+  "state": "Haryana",
+  "population_m": 1.9,
+  "zone_kind": "CBD",
+  "location_name": "Faridabad - CBD",
+  "road_name": "CBD zone, Faridabad",
+  "latitude": 28.40518,
+  "longitude": 77.31607
+ },
+ {
+  "city": "Faridabad",
+  "state": "Haryana",
+  "population_m": 1.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Faridabad - Railway Station",
+  "road_name": "Railway Station zone, Faridabad",
+  "latitude": 28.41313,
+  "longitude": 77.29266
+ },
+ {
+  "city": "Faridabad",
+  "state": "Haryana",
+  "population_m": 1.9,
+  "zone_kind": "Market Area",
+  "location_name": "Faridabad - Market Area",
+  "road_name": "Market Area zone, Faridabad",
+  "latitude": 28.4131,
+  "longitude": 77.33453
+ },
+ {
+  "city": "Faridabad",
+  "state": "Haryana",
+  "population_m": 1.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Faridabad - Ring Road",
+  "road_name": "Faridabad Ring Road",
+  "latitude": 28.37816,
+  "longitude": 77.27916
+ },
+ {
+  "city": "Faridabad",
+  "state": "Haryana",
+  "population_m": 1.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Faridabad - Highway Bypass",
+  "road_name": "Faridabad Bypass (NH)",
+  "latitude": 28.42402,
+  "longitude": 77.36772
+ },
+ {
+  "city": "Faridabad",
+  "state": "Haryana",
+  "population_m": 1.9,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Faridabad - Residential Arterial",
+  "road_name": "Residential Arterial zone, Faridabad",
+  "latitude": 28.38379,
+  "longitude": 77.30605
+ },
+ {
+  "city": "Meerut",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "CBD",
+  "location_name": "Meerut - CBD",
+  "road_name": "CBD zone, Meerut",
+  "latitude": 28.97654,
+  "longitude": 77.71817
+ },
+ {
+  "city": "Meerut",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Meerut - Railway Station",
+  "road_name": "Railway Station zone, Meerut",
+  "latitude": 28.99396,
+  "longitude": 77.69985
+ },
+ {
+  "city": "Meerut",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Market Area",
+  "location_name": "Meerut - Market Area",
+  "road_name": "Market Area zone, Meerut",
+  "latitude": 28.97924,
+  "longitude": 77.69059
+ },
+ {
+  "city": "Meerut",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Meerut - Ring Road",
+  "road_name": "Meerut Ring Road",
+  "latitude": 28.9614,
+  "longitude": 77.67566
+ },
+ {
+  "city": "Meerut",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Meerut - Highway Bypass",
+  "road_name": "Meerut Bypass (NH)",
+  "latitude": 29.0013,
+  "longitude": 77.65731
+ },
+ {
+  "city": "Meerut",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Meerut - Residential Arterial",
+  "road_name": "Residential Arterial zone, Meerut",
+  "latitude": 28.97021,
+  "longitude": 77.68272
+ },
+ {
+  "city": "Rajkot",
+  "state": "Gujarat",
+  "population_m": 1.8,
+  "zone_kind": "CBD",
+  "location_name": "Rajkot - CBD",
+  "road_name": "CBD zone, Rajkot",
+  "latitude": 22.29695,
+  "longitude": 70.7932
+ },
+ {
+  "city": "Rajkot",
+  "state": "Gujarat",
+  "population_m": 1.8,
+  "zone_kind": "Railway Station",
+  "location_name": "Rajkot - Railway Station",
+  "road_name": "Railway Station zone, Rajkot",
+  "latitude": 22.28651,
+  "longitude": 70.78704
+ },
+ {
+  "city": "Rajkot",
+  "state": "Gujarat",
+  "population_m": 1.8,
+  "zone_kind": "Market Area",
+  "location_name": "Rajkot - Market Area",
+  "road_name": "Market Area zone, Rajkot",
+  "latitude": 22.2869,
+  "longitude": 70.81638
+ },
+ {
+  "city": "Rajkot",
+  "state": "Gujarat",
+  "population_m": 1.8,
+  "zone_kind": "Ring Road",
+  "location_name": "Rajkot - Ring Road",
+  "road_name": "Rajkot Ring Road",
+  "latitude": 22.31225,
+  "longitude": 70.75575
+ },
+ {
+  "city": "Rajkot",
+  "state": "Gujarat",
+  "population_m": 1.8,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Rajkot - Highway Bypass",
+  "road_name": "Rajkot Bypass (NH)",
+  "latitude": 22.24535,
+  "longitude": 70.78956
+ },
+ {
+  "city": "Rajkot",
+  "state": "Gujarat",
+  "population_m": 1.8,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Rajkot - Residential Arterial",
+  "road_name": "Residential Arterial zone, Rajkot",
+  "latitude": 22.32803,
+  "longitude": 70.80844
+ },
+ {
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "CBD",
+  "location_name": "Varanasi - CBD",
+  "road_name": "CBD zone, Varanasi",
+  "latitude": 25.32359,
+  "longitude": 83.00167
+ },
+ {
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Varanasi - Railway Station",
+  "road_name": "Railway Station zone, Varanasi",
+  "latitude": 25.33348,
+  "longitude": 82.99679
+ },
+ {
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Market Area",
+  "location_name": "Varanasi - Market Area",
+  "road_name": "Market Area zone, Varanasi",
+  "latitude": 25.30747,
+  "longitude": 82.99101
+ },
+ {
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Varanasi - Ring Road",
+  "road_name": "Varanasi Ring Road",
+  "latitude": 25.28088,
+  "longitude": 83.01078
+ },
+ {
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Varanasi - Highway Bypass",
+  "road_name": "Varanasi Bypass (NH)",
+  "latitude": 25.2965,
+  "longitude": 83.06596
+ },
+ {
+  "city": "Varanasi",
+  "state": "Uttar Pradesh",
+  "population_m": 1.7,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Varanasi - Residential Arterial",
+  "road_name": "Residential Arterial zone, Varanasi",
+  "latitude": 25.30813,
+  "longitude": 82.97928
+ },
+ {
+  "city": "Srinagar",
+  "state": "Jammu and Kashmir",
+  "population_m": 1.5,
+  "zone_kind": "CBD",
+  "location_name": "Srinagar - CBD",
+  "road_name": "CBD zone, Srinagar",
+  "latitude": 34.0728,
+  "longitude": 74.80565
+ },
+ {
+  "city": "Srinagar",
+  "state": "Jammu and Kashmir",
+  "population_m": 1.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Srinagar - Railway Station",
+  "road_name": "Railway Station zone, Srinagar",
+  "latitude": 34.07216,
+  "longitude": 74.8187
+ },
+ {
+  "city": "Srinagar",
+  "state": "Jammu and Kashmir",
+  "population_m": 1.5,
+  "zone_kind": "Market Area",
+  "location_name": "Srinagar - Market Area",
+  "road_name": "Market Area zone, Srinagar",
+  "latitude": 34.06333,
+  "longitude": 74.80325
+ },
+ {
+  "city": "Srinagar",
+  "state": "Jammu and Kashmir",
+  "population_m": 1.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Srinagar - Ring Road",
+  "road_name": "Srinagar Ring Road",
+  "latitude": 34.0854,
+  "longitude": 74.75571
+ },
+ {
+  "city": "Srinagar",
+  "state": "Jammu and Kashmir",
+  "population_m": 1.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Srinagar - Highway Bypass",
+  "road_name": "Srinagar Bypass (NH)",
+  "latitude": 34.0346,
+  "longitude": 74.80549
+ },
+ {
+  "city": "Srinagar",
+  "state": "Jammu and Kashmir",
+  "population_m": 1.5,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Srinagar - Residential Arterial",
+  "road_name": "Residential Arterial zone, Srinagar",
+  "latitude": 34.07909,
+  "longitude": 74.83756
+ },
+ {
+  "city": "Aurangabad",
+  "state": "Maharashtra",
+  "population_m": 1.6,
+  "zone_kind": "CBD",
+  "location_name": "Aurangabad - CBD",
+  "road_name": "CBD zone, Aurangabad",
+  "latitude": 19.8725,
+  "longitude": 75.34149
+ },
+ {
+  "city": "Aurangabad",
+  "state": "Maharashtra",
+  "population_m": 1.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Aurangabad - Railway Station",
+  "road_name": "Railway Station zone, Aurangabad",
+  "latitude": 19.86606,
+  "longitude": 75.33528
+ },
+ {
+  "city": "Aurangabad",
+  "state": "Maharashtra",
+  "population_m": 1.6,
+  "zone_kind": "Market Area",
+  "location_name": "Aurangabad - Market Area",
+  "road_name": "Market Area zone, Aurangabad",
+  "latitude": 19.86253,
+  "longitude": 75.34481
+ },
+ {
+  "city": "Aurangabad",
+  "state": "Maharashtra",
+  "population_m": 1.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Aurangabad - Ring Road",
+  "road_name": "Aurangabad Ring Road",
+  "latitude": 19.85,
+  "longitude": 75.35729
+ },
+ {
+  "city": "Aurangabad",
+  "state": "Maharashtra",
+  "population_m": 1.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Aurangabad - Highway Bypass",
+  "road_name": "Aurangabad Bypass (NH)",
+  "latitude": 19.83348,
+  "longitude": 75.34212
+ },
+ {
+  "city": "Aurangabad",
+  "state": "Maharashtra",
+  "population_m": 1.6,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Aurangabad - Residential Arterial",
+  "road_name": "Residential Arterial zone, Aurangabad",
+  "latitude": 19.90808,
+  "longitude": 75.35309
+ },
+ {
+  "city": "Dhanbad",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "CBD",
+  "location_name": "Dhanbad - CBD",
+  "road_name": "CBD zone, Dhanbad",
+  "latitude": 23.79504,
+  "longitude": 86.43528
+ },
+ {
+  "city": "Dhanbad",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "Railway Station",
+  "location_name": "Dhanbad - Railway Station",
+  "road_name": "Railway Station zone, Dhanbad",
+  "latitude": 23.8022,
+  "longitude": 86.41594
+ },
+ {
+  "city": "Dhanbad",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "Market Area",
+  "location_name": "Dhanbad - Market Area",
+  "road_name": "Market Area zone, Dhanbad",
+  "latitude": 23.81228,
+  "longitude": 86.44162
+ },
+ {
+  "city": "Dhanbad",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "Ring Road",
+  "location_name": "Dhanbad - Ring Road",
+  "road_name": "Dhanbad Ring Road",
+  "latitude": 23.78138,
+  "longitude": 86.45655
+ },
+ {
+  "city": "Dhanbad",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Dhanbad - Highway Bypass",
+  "road_name": "Dhanbad Bypass (NH)",
+  "latitude": 23.76646,
+  "longitude": 86.38777
+ },
+ {
+  "city": "Amritsar",
+  "state": "Punjab",
+  "population_m": 1.4,
+  "zone_kind": "CBD",
+  "location_name": "Amritsar - CBD",
+  "road_name": "CBD zone, Amritsar",
+  "latitude": 31.62275,
+  "longitude": 74.87367
+ },
+ {
+  "city": "Amritsar",
+  "state": "Punjab",
+  "population_m": 1.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Amritsar - Railway Station",
+  "road_name": "Railway Station zone, Amritsar",
+  "latitude": 31.61795,
+  "longitude": 74.86132
+ },
+ {
+  "city": "Amritsar",
+  "state": "Punjab",
+  "population_m": 1.4,
+  "zone_kind": "Market Area",
+  "location_name": "Amritsar - Market Area",
+  "road_name": "Market Area zone, Amritsar",
+  "latitude": 31.64455,
+  "longitude": 74.86241
+ },
+ {
+  "city": "Amritsar",
+  "state": "Punjab",
+  "population_m": 1.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Amritsar - Ring Road",
+  "road_name": "Amritsar Ring Road",
+  "latitude": 31.65808,
+  "longitude": 74.88325
+ },
+ {
+  "city": "Amritsar",
+  "state": "Punjab",
+  "population_m": 1.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Amritsar - Highway Bypass",
+  "road_name": "Amritsar Bypass (NH)",
+  "latitude": 31.59104,
+  "longitude": 74.89627
+ },
+ {
+  "city": "Prayagraj",
+  "state": "Uttar Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "CBD",
+  "location_name": "Prayagraj - CBD",
+  "road_name": "CBD zone, Prayagraj",
+  "latitude": 25.43688,
+  "longitude": 81.85659
+ },
+ {
+  "city": "Prayagraj",
+  "state": "Uttar Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Prayagraj - Railway Station",
+  "road_name": "Railway Station zone, Prayagraj",
+  "latitude": 25.43437,
+  "longitude": 81.83507
+ },
+ {
+  "city": "Prayagraj",
+  "state": "Uttar Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Market Area",
+  "location_name": "Prayagraj - Market Area",
+  "road_name": "Market Area zone, Prayagraj",
+  "latitude": 25.44828,
+  "longitude": 81.86646
+ },
+ {
+  "city": "Prayagraj",
+  "state": "Uttar Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Prayagraj - Ring Road",
+  "road_name": "Prayagraj Ring Road",
+  "latitude": 25.41982,
+  "longitude": 81.88719
+ },
+ {
+  "city": "Prayagraj",
+  "state": "Uttar Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Prayagraj - Highway Bypass",
+  "road_name": "Prayagraj Bypass (NH)",
+  "latitude": 25.39395,
+  "longitude": 81.83832
+ },
+ {
+  "city": "Prayagraj",
+  "state": "Uttar Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Prayagraj - Residential Arterial",
+  "road_name": "Residential Arterial zone, Prayagraj",
+  "latitude": 25.46994,
+  "longitude": 81.85977
+ },
+ {
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "population_m": 1.2,
+  "zone_kind": "CBD",
+  "location_name": "Ranchi - CBD",
+  "road_name": "CBD zone, Ranchi",
+  "latitude": 23.33306,
+  "longitude": 85.30554
+ },
+ {
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "population_m": 1.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Ranchi - Railway Station",
+  "road_name": "Railway Station zone, Ranchi",
+  "latitude": 23.3534,
+  "longitude": 85.31086
+ },
+ {
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "population_m": 1.2,
+  "zone_kind": "Market Area",
+  "location_name": "Ranchi - Market Area",
+  "road_name": "Market Area zone, Ranchi",
+  "latitude": 23.35475,
+  "longitude": 85.30385
+ },
+ {
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "population_m": 1.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Ranchi - Ring Road",
+  "road_name": "Ranchi Ring Road",
+  "latitude": 23.3664,
+  "longitude": 85.33645
+ },
+ {
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "population_m": 1.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Ranchi - Highway Bypass",
+  "road_name": "Ranchi Bypass (NH)",
+  "latitude": 23.37741,
+  "longitude": 85.3526
+ },
+ {
+  "city": "Coimbatore",
+  "state": "Tamil Nadu",
+  "population_m": 2.2,
+  "zone_kind": "CBD",
+  "location_name": "Coimbatore - CBD",
+  "road_name": "CBD zone, Coimbatore",
+  "latitude": 11.02965,
+  "longitude": 76.95929
+ },
+ {
+  "city": "Coimbatore",
+  "state": "Tamil Nadu",
+  "population_m": 2.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Coimbatore - Railway Station",
+  "road_name": "Railway Station zone, Coimbatore",
+  "latitude": 11.01373,
+  "longitude": 76.94199
+ },
+ {
+  "city": "Coimbatore",
+  "state": "Tamil Nadu",
+  "population_m": 2.2,
+  "zone_kind": "Market Area",
+  "location_name": "Coimbatore - Market Area",
+  "road_name": "Market Area zone, Coimbatore",
+  "latitude": 11.04122,
+  "longitude": 76.95571
+ },
+ {
+  "city": "Coimbatore",
+  "state": "Tamil Nadu",
+  "population_m": 2.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Coimbatore - Ring Road",
+  "road_name": "Coimbatore Ring Road",
+  "latitude": 11.02878,
+  "longitude": 77.00405
+ },
+ {
+  "city": "Coimbatore",
+  "state": "Tamil Nadu",
+  "population_m": 2.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Coimbatore - Highway Bypass",
+  "road_name": "Coimbatore Bypass (NH)",
+  "latitude": 11.05788,
+  "longitude": 76.91938
+ },
+ {
+  "city": "Coimbatore",
+  "state": "Tamil Nadu",
+  "population_m": 2.2,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Coimbatore - Residential Arterial",
+  "road_name": "Residential Arterial zone, Coimbatore",
+  "latitude": 11.01552,
+  "longitude": 76.92681
+ },
+ {
+  "city": "Jabalpur",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "CBD",
+  "location_name": "Jabalpur - CBD",
+  "road_name": "CBD zone, Jabalpur",
+  "latitude": 23.17793,
+  "longitude": 79.95682
+ },
+ {
+  "city": "Jabalpur",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Jabalpur - Railway Station",
+  "road_name": "Railway Station zone, Jabalpur",
+  "latitude": 23.16707,
+  "longitude": 79.95632
+ },
+ {
+  "city": "Jabalpur",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "Market Area",
+  "location_name": "Jabalpur - Market Area",
+  "road_name": "Market Area zone, Jabalpur",
+  "latitude": 23.19149,
+  "longitude": 79.96141
+ },
+ {
+  "city": "Jabalpur",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Jabalpur - Ring Road",
+  "road_name": "Jabalpur Ring Road",
+  "latitude": 23.17532,
+  "longitude": 79.99079
+ },
+ {
+  "city": "Jabalpur",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Jabalpur - Highway Bypass",
+  "road_name": "Jabalpur Bypass (NH)",
+  "latitude": 23.22915,
+  "longitude": 79.98298
+ },
+ {
+  "city": "Gwalior",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "CBD",
+  "location_name": "Gwalior - CBD",
+  "road_name": "CBD zone, Gwalior",
+  "latitude": 26.21321,
+  "longitude": 78.17722
+ },
+ {
+  "city": "Gwalior",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Gwalior - Railway Station",
+  "road_name": "Railway Station zone, Gwalior",
+  "latitude": 26.2212,
+  "longitude": 78.19575
+ },
+ {
+  "city": "Gwalior",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "Market Area",
+  "location_name": "Gwalior - Market Area",
+  "road_name": "Market Area zone, Gwalior",
+  "latitude": 26.2351,
+  "longitude": 78.17004
+ },
+ {
+  "city": "Gwalior",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Gwalior - Ring Road",
+  "road_name": "Gwalior Ring Road",
+  "latitude": 26.22059,
+  "longitude": 78.21662
+ },
+ {
+  "city": "Gwalior",
+  "state": "Madhya Pradesh",
+  "population_m": 1.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Gwalior - Highway Bypass",
+  "road_name": "Gwalior Bypass (NH)",
+  "latitude": 26.2112,
+  "longitude": 78.22948
+ },
+ {
+  "city": "Vijayawada",
+  "state": "Andhra Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "CBD",
+  "location_name": "Vijayawada - CBD",
+  "road_name": "CBD zone, Vijayawada",
+  "latitude": 16.5161,
+  "longitude": 80.64421
+ },
+ {
+  "city": "Vijayawada",
+  "state": "Andhra Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Vijayawada - Railway Station",
+  "road_name": "Railway Station zone, Vijayawada",
+  "latitude": 16.49895,
+  "longitude": 80.66116
+ },
+ {
+  "city": "Vijayawada",
+  "state": "Andhra Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Market Area",
+  "location_name": "Vijayawada - Market Area",
+  "road_name": "Market Area zone, Vijayawada",
+  "latitude": 16.5225,
+  "longitude": 80.63908
+ },
+ {
+  "city": "Vijayawada",
+  "state": "Andhra Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Vijayawada - Ring Road",
+  "road_name": "Vijayawada Ring Road",
+  "latitude": 16.51335,
+  "longitude": 80.61378
+ },
+ {
+  "city": "Vijayawada",
+  "state": "Andhra Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Vijayawada - Highway Bypass",
+  "road_name": "Vijayawada Bypass (NH)",
+  "latitude": 16.54589,
+  "longitude": 80.68104
+ },
+ {
+  "city": "Vijayawada",
+  "state": "Andhra Pradesh",
+  "population_m": 1.5,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Vijayawada - Residential Arterial",
+  "road_name": "Residential Arterial zone, Vijayawada",
+  "latitude": 16.51914,
+  "longitude": 80.62016
+ },
+ {
+  "city": "Jodhpur",
+  "state": "Rajasthan",
+  "population_m": 1.3,
+  "zone_kind": "CBD",
+  "location_name": "Jodhpur - CBD",
+  "road_name": "CBD zone, Jodhpur",
+  "latitude": 26.24736,
+  "longitude": 73.02149
+ },
+ {
+  "city": "Jodhpur",
+  "state": "Rajasthan",
+  "population_m": 1.3,
+  "zone_kind": "Railway Station",
+  "location_name": "Jodhpur - Railway Station",
+  "road_name": "Railway Station zone, Jodhpur",
+  "latitude": 26.24253,
+  "longitude": 73.03877
+ },
+ {
+  "city": "Jodhpur",
+  "state": "Rajasthan",
+  "population_m": 1.3,
+  "zone_kind": "Market Area",
+  "location_name": "Jodhpur - Market Area",
+  "road_name": "Market Area zone, Jodhpur",
+  "latitude": 26.25586,
+  "longitude": 73.02288
+ },
+ {
+  "city": "Jodhpur",
+  "state": "Rajasthan",
+  "population_m": 1.3,
+  "zone_kind": "Ring Road",
+  "location_name": "Jodhpur - Ring Road",
+  "road_name": "Jodhpur Ring Road",
+  "latitude": 26.23299,
+  "longitude": 73.05327
+ },
+ {
+  "city": "Jodhpur",
+  "state": "Rajasthan",
+  "population_m": 1.3,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Jodhpur - Highway Bypass",
+  "road_name": "Jodhpur Bypass (NH)",
+  "latitude": 26.29682,
+  "longitude": 73.02325
+ },
+ {
+  "city": "Madurai",
+  "state": "Tamil Nadu",
+  "population_m": 1.5,
+  "zone_kind": "CBD",
+  "location_name": "Madurai - CBD",
+  "road_name": "CBD zone, Madurai",
+  "latitude": 9.92712,
+  "longitude": 78.11365
+ },
+ {
+  "city": "Madurai",
+  "state": "Tamil Nadu",
+  "population_m": 1.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Madurai - Railway Station",
+  "road_name": "Railway Station zone, Madurai",
+  "latitude": 9.91666,
+  "longitude": 78.11373
+ },
+ {
+  "city": "Madurai",
+  "state": "Tamil Nadu",
+  "population_m": 1.5,
+  "zone_kind": "Market Area",
+  "location_name": "Madurai - Market Area",
+  "road_name": "Market Area zone, Madurai",
+  "latitude": 9.91727,
+  "longitude": 78.13158
+ },
+ {
+  "city": "Madurai",
+  "state": "Tamil Nadu",
+  "population_m": 1.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Madurai - Ring Road",
+  "road_name": "Madurai Ring Road",
+  "latitude": 9.89173,
+  "longitude": 78.12265
+ },
+ {
+  "city": "Madurai",
+  "state": "Tamil Nadu",
+  "population_m": 1.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Madurai - Highway Bypass",
+  "road_name": "Madurai Bypass (NH)",
+  "latitude": 9.94515,
+  "longitude": 78.07593
+ },
+ {
+  "city": "Madurai",
+  "state": "Tamil Nadu",
+  "population_m": 1.5,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Madurai - Residential Arterial",
+  "road_name": "Residential Arterial zone, Madurai",
+  "latitude": 9.92412,
+  "longitude": 78.14722
+ },
+ {
+  "city": "Raipur",
+  "state": "Chhattisgarh",
+  "population_m": 1.4,
+  "zone_kind": "CBD",
+  "location_name": "Raipur - CBD",
+  "road_name": "CBD zone, Raipur",
+  "latitude": 21.24305,
+  "longitude": 81.63171
+ },
+ {
+  "city": "Raipur",
+  "state": "Chhattisgarh",
+  "population_m": 1.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Raipur - Railway Station",
+  "road_name": "Railway Station zone, Raipur",
+  "latitude": 21.23793,
+  "longitude": 81.6185
+ },
+ {
+  "city": "Raipur",
+  "state": "Chhattisgarh",
+  "population_m": 1.4,
+  "zone_kind": "Market Area",
+  "location_name": "Raipur - Market Area",
+  "road_name": "Market Area zone, Raipur",
+  "latitude": 21.24243,
+  "longitude": 81.64951
+ },
+ {
+  "city": "Raipur",
+  "state": "Chhattisgarh",
+  "population_m": 1.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Raipur - Ring Road",
+  "road_name": "Raipur Ring Road",
+  "latitude": 21.21705,
+  "longitude": 81.64153
+ },
+ {
+  "city": "Raipur",
+  "state": "Chhattisgarh",
+  "population_m": 1.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Raipur - Highway Bypass",
+  "road_name": "Raipur Bypass (NH)",
+  "latitude": 21.27203,
+  "longitude": 81.57313
+ },
+ {
+  "city": "Kota",
+  "state": "Rajasthan",
+  "population_m": 1.2,
+  "zone_kind": "CBD",
+  "location_name": "Kota - CBD",
+  "road_name": "CBD zone, Kota",
+  "latitude": 25.17493,
+  "longitude": 75.82515
+ },
+ {
+  "city": "Kota",
+  "state": "Rajasthan",
+  "population_m": 1.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Kota - Railway Station",
+  "road_name": "Railway Station zone, Kota",
+  "latitude": 25.18756,
+  "longitude": 75.8432
+ },
+ {
+  "city": "Kota",
+  "state": "Rajasthan",
+  "population_m": 1.2,
+  "zone_kind": "Market Area",
+  "location_name": "Kota - Market Area",
+  "road_name": "Market Area zone, Kota",
+  "latitude": 25.19716,
+  "longitude": 75.83381
+ },
+ {
+  "city": "Kota",
+  "state": "Rajasthan",
+  "population_m": 1.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Kota - Ring Road",
+  "road_name": "Kota Ring Road",
+  "latitude": 25.15083,
+  "longitude": 75.82042
+ },
+ {
+  "city": "Kota",
+  "state": "Rajasthan",
+  "population_m": 1.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kota - Highway Bypass",
+  "road_name": "Kota Bypass (NH)",
+  "latitude": 25.22399,
+  "longitude": 75.81944
+ },
+ {
+  "city": "Guwahati",
+  "state": "Assam",
+  "population_m": 1.1,
+  "zone_kind": "CBD",
+  "location_name": "Guwahati - CBD",
+  "road_name": "CBD zone, Guwahati",
+  "latitude": 26.14583,
+  "longitude": 91.746
+ },
+ {
+  "city": "Guwahati",
+  "state": "Assam",
+  "population_m": 1.1,
+  "zone_kind": "Railway Station",
+  "location_name": "Guwahati - Railway Station",
+  "road_name": "Railway Station zone, Guwahati",
+  "latitude": 26.14333,
+  "longitude": 91.72622
+ },
+ {
+  "city": "Guwahati",
+  "state": "Assam",
+  "population_m": 1.1,
+  "zone_kind": "Market Area",
+  "location_name": "Guwahati - Market Area",
+  "road_name": "Market Area zone, Guwahati",
+  "latitude": 26.15408,
+  "longitude": 91.75219
+ },
+ {
+  "city": "Guwahati",
+  "state": "Assam",
+  "population_m": 1.1,
+  "zone_kind": "Ring Road",
+  "location_name": "Guwahati - Ring Road",
+  "road_name": "Guwahati Ring Road",
+  "latitude": 26.14175,
+  "longitude": 91.77591
+ },
+ {
+  "city": "Guwahati",
+  "state": "Assam",
+  "population_m": 1.1,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Guwahati - Highway Bypass",
+  "road_name": "Guwahati Bypass (NH)",
+  "latitude": 26.09977,
+  "longitude": 91.70859
+ },
+ {
+  "city": "Chandigarh",
+  "state": "Chandigarh",
+  "population_m": 1.2,
+  "zone_kind": "CBD",
+  "location_name": "Chandigarh - CBD",
+  "road_name": "CBD zone, Chandigarh",
+  "latitude": 30.7247,
+  "longitude": 76.77623
+ },
+ {
+  "city": "Chandigarh",
+  "state": "Chandigarh",
+  "population_m": 1.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Chandigarh - Railway Station",
+  "road_name": "Railway Station zone, Chandigarh",
+  "latitude": 30.721,
+  "longitude": 76.76637
+ },
+ {
+  "city": "Chandigarh",
+  "state": "Chandigarh",
+  "population_m": 1.2,
+  "zone_kind": "Market Area",
+  "location_name": "Chandigarh - Market Area",
+  "road_name": "Market Area zone, Chandigarh",
+  "latitude": 30.71389,
+  "longitude": 76.78686
+ },
+ {
+  "city": "Chandigarh",
+  "state": "Chandigarh",
+  "population_m": 1.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Chandigarh - Ring Road",
+  "road_name": "Chandigarh Ring Road",
+  "latitude": 30.75274,
+  "longitude": 76.7505
+ },
+ {
+  "city": "Chandigarh",
+  "state": "Chandigarh",
+  "population_m": 1.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Chandigarh - Highway Bypass",
+  "road_name": "Chandigarh Bypass (NH)",
+  "latitude": 30.71209,
+  "longitude": 76.71841
+ },
+ {
+  "city": "Thiruvananthapuram",
+  "state": "Kerala",
+  "population_m": 1.0,
+  "zone_kind": "CBD",
+  "location_name": "Thiruvananthapuram - CBD",
+  "road_name": "CBD zone, Thiruvananthapuram",
+  "latitude": 8.52619,
+  "longitude": 76.93749
+ },
+ {
+  "city": "Thiruvananthapuram",
+  "state": "Kerala",
+  "population_m": 1.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Thiruvananthapuram - Railway Station",
+  "road_name": "Railway Station zone, Thiruvananthapuram",
+  "latitude": 8.51979,
+  "longitude": 76.92569
+ },
+ {
+  "city": "Thiruvananthapuram",
+  "state": "Kerala",
+  "population_m": 1.0,
+  "zone_kind": "Market Area",
+  "location_name": "Thiruvananthapuram - Market Area",
+  "road_name": "Market Area zone, Thiruvananthapuram",
+  "latitude": 8.52721,
+  "longitude": 76.95289
+ },
+ {
+  "city": "Thiruvananthapuram",
+  "state": "Kerala",
+  "population_m": 1.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Thiruvananthapuram - Ring Road",
+  "road_name": "Thiruvananthapuram Ring Road",
+  "latitude": 8.49673,
+  "longitude": 76.92389
+ },
+ {
+  "city": "Thiruvananthapuram",
+  "state": "Kerala",
+  "population_m": 1.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Thiruvananthapuram - Highway Bypass",
+  "road_name": "Thiruvananthapuram Bypass (NH)",
+  "latitude": 8.57126,
+  "longitude": 76.93232
+ },
+ {
+  "city": "Solapur",
+  "state": "Maharashtra",
+  "population_m": 1.0,
+  "zone_kind": "CBD",
+  "location_name": "Solapur - CBD",
+  "road_name": "CBD zone, Solapur",
+  "latitude": 17.65776,
+  "longitude": 75.9021
+ },
+ {
+  "city": "Solapur",
+  "state": "Maharashtra",
+  "population_m": 1.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Solapur - Railway Station",
+  "road_name": "Railway Station zone, Solapur",
+  "latitude": 17.65545,
+  "longitude": 75.89589
+ },
+ {
+  "city": "Solapur",
+  "state": "Maharashtra",
+  "population_m": 1.0,
+  "zone_kind": "Market Area",
+  "location_name": "Solapur - Market Area",
+  "road_name": "Market Area zone, Solapur",
+  "latitude": 17.67742,
+  "longitude": 75.90733
+ },
+ {
+  "city": "Solapur",
+  "state": "Maharashtra",
+  "population_m": 1.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Solapur - Ring Road",
+  "road_name": "Solapur Ring Road",
+  "latitude": 17.62696,
+  "longitude": 75.92005
+ },
+ {
+  "city": "Solapur",
+  "state": "Maharashtra",
+  "population_m": 1.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Solapur - Highway Bypass",
+  "road_name": "Solapur Bypass (NH)",
+  "latitude": 17.70441,
+  "longitude": 75.8901
+ },
+ {
+  "city": "Hubballi",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "CBD",
+  "location_name": "Hubballi - CBD",
+  "road_name": "CBD zone, Hubballi",
+  "latitude": 15.35269,
+  "longitude": 75.11907
+ },
+ {
+  "city": "Hubballi",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Hubballi - Railway Station",
+  "road_name": "Railway Station zone, Hubballi",
+  "latitude": 15.36143,
+  "longitude": 75.10477
+ },
+ {
+  "city": "Hubballi",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "Market Area",
+  "location_name": "Hubballi - Market Area",
+  "road_name": "Market Area zone, Hubballi",
+  "latitude": 15.34635,
+  "longitude": 75.1272
+ },
+ {
+  "city": "Hubballi",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Hubballi - Ring Road",
+  "road_name": "Hubballi Ring Road",
+  "latitude": 15.3271,
+  "longitude": 75.11575
+ },
+ {
+  "city": "Hubballi",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Hubballi - Highway Bypass",
+  "road_name": "Hubballi Bypass (NH)",
+  "latitude": 15.37275,
+  "longitude": 75.0668
+ },
+ {
+  "city": "Tiruchirappalli",
+  "state": "Tamil Nadu",
+  "population_m": 1.1,
+  "zone_kind": "CBD",
+  "location_name": "Tiruchirappalli - CBD",
+  "road_name": "CBD zone, Tiruchirappalli",
+  "latitude": 10.79712,
+  "longitude": 78.70164
+ },
+ {
+  "city": "Tiruchirappalli",
+  "state": "Tamil Nadu",
+  "population_m": 1.1,
+  "zone_kind": "Railway Station",
+  "location_name": "Tiruchirappalli - Railway Station",
+  "road_name": "Railway Station zone, Tiruchirappalli",
+  "latitude": 10.79979,
+  "longitude": 78.68706
+ },
+ {
+  "city": "Tiruchirappalli",
+  "state": "Tamil Nadu",
+  "population_m": 1.1,
+  "zone_kind": "Market Area",
+  "location_name": "Tiruchirappalli - Market Area",
+  "road_name": "Market Area zone, Tiruchirappalli",
+  "latitude": 10.79306,
+  "longitude": 78.71918
+ },
+ {
+  "city": "Tiruchirappalli",
+  "state": "Tamil Nadu",
+  "population_m": 1.1,
+  "zone_kind": "Ring Road",
+  "location_name": "Tiruchirappalli - Ring Road",
+  "road_name": "Tiruchirappalli Ring Road",
+  "latitude": 10.81106,
+  "longitude": 78.67402
+ },
+ {
+  "city": "Tiruchirappalli",
+  "state": "Tamil Nadu",
+  "population_m": 1.1,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Tiruchirappalli - Highway Bypass",
+  "road_name": "Tiruchirappalli Bypass (NH)",
+  "latitude": 10.80065,
+  "longitude": 78.65987
+ },
+ {
+  "city": "Bareilly",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "CBD",
+  "location_name": "Bareilly - CBD",
+  "road_name": "CBD zone, Bareilly",
+  "latitude": 28.37398,
+  "longitude": 79.43701
+ },
+ {
+  "city": "Bareilly",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Bareilly - Railway Station",
+  "road_name": "Railway Station zone, Bareilly",
+  "latitude": 28.38012,
+  "longitude": 79.43761
+ },
+ {
+  "city": "Bareilly",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Market Area",
+  "location_name": "Bareilly - Market Area",
+  "road_name": "Market Area zone, Bareilly",
+  "latitude": 28.35974,
+  "longitude": 79.41582
+ },
+ {
+  "city": "Bareilly",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Bareilly - Ring Road",
+  "road_name": "Bareilly Ring Road",
+  "latitude": 28.35279,
+  "longitude": 79.4561
+ },
+ {
+  "city": "Bareilly",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bareilly - Highway Bypass",
+  "road_name": "Bareilly Bypass (NH)",
+  "latitude": 28.39934,
+  "longitude": 79.46311
+ },
+ {
+  "city": "Mysuru",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "CBD",
+  "location_name": "Mysuru - CBD",
+  "road_name": "CBD zone, Mysuru",
+  "latitude": 12.3054,
+  "longitude": 76.64422
+ },
+ {
+  "city": "Mysuru",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Mysuru - Railway Station",
+  "road_name": "Railway Station zone, Mysuru",
+  "latitude": 12.31385,
+  "longitude": 76.64064
+ },
+ {
+  "city": "Mysuru",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "Market Area",
+  "location_name": "Mysuru - Market Area",
+  "road_name": "Market Area zone, Mysuru",
+  "latitude": 12.28209,
+  "longitude": 76.6415
+ },
+ {
+  "city": "Mysuru",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Mysuru - Ring Road",
+  "road_name": "Mysuru Ring Road",
+  "latitude": 12.2659,
+  "longitude": 76.63689
+ },
+ {
+  "city": "Mysuru",
+  "state": "Karnataka",
+  "population_m": 1.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Mysuru - Highway Bypass",
+  "road_name": "Mysuru Bypass (NH)",
+  "latitude": 12.28378,
+  "longitude": 76.67898
+ },
+ {
+  "city": "Tiruppur",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "CBD",
+  "location_name": "Tiruppur - CBD",
+  "road_name": "CBD zone, Tiruppur",
+  "latitude": 11.10473,
+  "longitude": 77.34353
+ },
+ {
+  "city": "Tiruppur",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Tiruppur - Railway Station",
+  "road_name": "Railway Station zone, Tiruppur",
+  "latitude": 11.12493,
+  "longitude": 77.33756
+ },
+ {
+  "city": "Tiruppur",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "Market Area",
+  "location_name": "Tiruppur - Market Area",
+  "road_name": "Market Area zone, Tiruppur",
+  "latitude": 11.09363,
+  "longitude": 77.33188
+ },
+ {
+  "city": "Tiruppur",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Tiruppur - Ring Road",
+  "road_name": "Tiruppur Ring Road",
+  "latitude": 11.0783,
+  "longitude": 77.35085
+ },
+ {
+  "city": "Tiruppur",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Tiruppur - Highway Bypass",
+  "road_name": "Tiruppur Bypass (NH)",
+  "latitude": 11.09813,
+  "longitude": 77.29372
+ },
+ {
+  "city": "Gurugram",
+  "state": "Haryana",
+  "population_m": 1.5,
+  "zone_kind": "CBD",
+  "location_name": "Gurugram - CBD",
+  "road_name": "CBD zone, Gurugram",
+  "latitude": 28.46427,
+  "longitude": 77.02416
+ },
+ {
+  "city": "Gurugram",
+  "state": "Haryana",
+  "population_m": 1.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Gurugram - Railway Station",
+  "road_name": "Railway Station zone, Gurugram",
+  "latitude": 28.47425,
+  "longitude": 77.0232
+ },
+ {
+  "city": "Gurugram",
+  "state": "Haryana",
+  "population_m": 1.5,
+  "zone_kind": "Market Area",
+  "location_name": "Gurugram - Market Area",
+  "road_name": "Market Area zone, Gurugram",
+  "latitude": 28.46529,
+  "longitude": 77.01161
+ },
+ {
+  "city": "Gurugram",
+  "state": "Haryana",
+  "population_m": 1.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Gurugram - Ring Road",
+  "road_name": "Gurugram Ring Road",
+  "latitude": 28.47573,
+  "longitude": 77.06288
+ },
+ {
+  "city": "Gurugram",
+  "state": "Haryana",
+  "population_m": 1.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Gurugram - Highway Bypass",
+  "road_name": "Gurugram Bypass (NH)",
+  "latitude": 28.47518,
+  "longitude": 76.97086
+ },
+ {
+  "city": "Gurugram",
+  "state": "Haryana",
+  "population_m": 1.5,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Gurugram - Residential Arterial",
+  "road_name": "Residential Arterial zone, Gurugram",
+  "latitude": 28.44621,
+  "longitude": 76.99999
+ },
+ {
+  "city": "Aligarh",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "CBD",
+  "location_name": "Aligarh - CBD",
+  "road_name": "CBD zone, Aligarh",
+  "latitude": 27.88664,
+  "longitude": 78.08087
+ },
+ {
+  "city": "Aligarh",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Aligarh - Railway Station",
+  "road_name": "Railway Station zone, Aligarh",
+  "latitude": 27.86879,
+  "longitude": 78.0914
+ },
+ {
+  "city": "Aligarh",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Market Area",
+  "location_name": "Aligarh - Market Area",
+  "road_name": "Market Area zone, Aligarh",
+  "latitude": 27.87991,
+  "longitude": 78.06384
+ },
+ {
+  "city": "Aligarh",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Aligarh - Ring Road",
+  "road_name": "Aligarh Ring Road",
+  "latitude": 27.90791,
+  "longitude": 78.06839
+ },
+ {
+  "city": "Aligarh",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Aligarh - Highway Bypass",
+  "road_name": "Aligarh Bypass (NH)",
+  "latitude": 27.92385,
+  "longitude": 78.08491
+ },
+ {
+  "city": "Jalandhar",
+  "state": "Punjab",
+  "population_m": 0.9,
+  "zone_kind": "CBD",
+  "location_name": "Jalandhar - CBD",
+  "road_name": "CBD zone, Jalandhar",
+  "latitude": 31.33636,
+  "longitude": 75.58021
+ },
+ {
+  "city": "Jalandhar",
+  "state": "Punjab",
+  "population_m": 0.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Jalandhar - Railway Station",
+  "road_name": "Railway Station zone, Jalandhar",
+  "latitude": 31.3179,
+  "longitude": 75.58246
+ },
+ {
+  "city": "Jalandhar",
+  "state": "Punjab",
+  "population_m": 0.9,
+  "zone_kind": "Market Area",
+  "location_name": "Jalandhar - Market Area",
+  "road_name": "Market Area zone, Jalandhar",
+  "latitude": 31.34045,
+  "longitude": 75.56637
+ },
+ {
+  "city": "Jalandhar",
+  "state": "Punjab",
+  "population_m": 0.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Jalandhar - Ring Road",
+  "road_name": "Jalandhar Ring Road",
+  "latitude": 31.32074,
+  "longitude": 75.54328
+ },
+ {
+  "city": "Jalandhar",
+  "state": "Punjab",
+  "population_m": 0.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Jalandhar - Highway Bypass",
+  "road_name": "Jalandhar Bypass (NH)",
+  "latitude": 31.36617,
+  "longitude": 75.54386
+ },
+ {
+  "city": "Bhubaneswar",
+  "state": "Odisha",
+  "population_m": 1.2,
+  "zone_kind": "CBD",
+  "location_name": "Bhubaneswar - CBD",
+  "road_name": "CBD zone, Bhubaneswar",
+  "latitude": 20.29442,
+  "longitude": 85.82335
+ },
+ {
+  "city": "Bhubaneswar",
+  "state": "Odisha",
+  "population_m": 1.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Bhubaneswar - Railway Station",
+  "road_name": "Railway Station zone, Bhubaneswar",
+  "latitude": 20.29652,
+  "longitude": 85.83323
+ },
+ {
+  "city": "Bhubaneswar",
+  "state": "Odisha",
+  "population_m": 1.2,
+  "zone_kind": "Market Area",
+  "location_name": "Bhubaneswar - Market Area",
+  "road_name": "Market Area zone, Bhubaneswar",
+  "latitude": 20.29333,
+  "longitude": 85.80441
+ },
+ {
+  "city": "Bhubaneswar",
+  "state": "Odisha",
+  "population_m": 1.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Bhubaneswar - Ring Road",
+  "road_name": "Bhubaneswar Ring Road",
+  "latitude": 20.32788,
+  "longitude": 85.81139
+ },
+ {
+  "city": "Bhubaneswar",
+  "state": "Odisha",
+  "population_m": 1.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bhubaneswar - Highway Bypass",
+  "road_name": "Bhubaneswar Bypass (NH)",
+  "latitude": 20.34206,
+  "longitude": 85.78505
+ },
+ {
+  "city": "Salem",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "CBD",
+  "location_name": "Salem - CBD",
+  "road_name": "CBD zone, Salem",
+  "latitude": 11.65409,
+  "longitude": 78.14936
+ },
+ {
+  "city": "Salem",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Salem - Railway Station",
+  "road_name": "Railway Station zone, Salem",
+  "latitude": 11.65154,
+  "longitude": 78.15877
+ },
+ {
+  "city": "Salem",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "Market Area",
+  "location_name": "Salem - Market Area",
+  "road_name": "Market Area zone, Salem",
+  "latitude": 11.66207,
+  "longitude": 78.16858
+ },
+ {
+  "city": "Salem",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Salem - Ring Road",
+  "road_name": "Salem Ring Road",
+  "latitude": 11.6891,
+  "longitude": 78.13613
+ },
+ {
+  "city": "Salem",
+  "state": "Tamil Nadu",
+  "population_m": 0.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Salem - Highway Bypass",
+  "road_name": "Salem Bypass (NH)",
+  "latitude": 11.68312,
+  "longitude": 78.19166
+ },
+ {
+  "city": "Warangal",
+  "state": "Telangana",
+  "population_m": 0.8,
+  "zone_kind": "CBD",
+  "location_name": "Warangal - CBD",
+  "road_name": "CBD zone, Warangal",
+  "latitude": 17.97485,
+  "longitude": 79.5948
+ },
+ {
+  "city": "Warangal",
+  "state": "Telangana",
+  "population_m": 0.8,
+  "zone_kind": "Railway Station",
+  "location_name": "Warangal - Railway Station",
+  "road_name": "Railway Station zone, Warangal",
+  "latitude": 17.98334,
+  "longitude": 79.59807
+ },
+ {
+  "city": "Warangal",
+  "state": "Telangana",
+  "population_m": 0.8,
+  "zone_kind": "Market Area",
+  "location_name": "Warangal - Market Area",
+  "road_name": "Market Area zone, Warangal",
+  "latitude": 17.9629,
+  "longitude": 79.57621
+ },
+ {
+  "city": "Warangal",
+  "state": "Telangana",
+  "population_m": 0.8,
+  "zone_kind": "Ring Road",
+  "location_name": "Warangal - Ring Road",
+  "road_name": "Warangal Ring Road",
+  "latitude": 17.97865,
+  "longitude": 79.6224
+ },
+ {
+  "city": "Warangal",
+  "state": "Telangana",
+  "population_m": 0.8,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Warangal - Highway Bypass",
+  "road_name": "Warangal Bypass (NH)",
+  "latitude": 17.94853,
+  "longitude": 79.63586
+ },
+ {
+  "city": "Guntur",
+  "state": "Andhra Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "CBD",
+  "location_name": "Guntur - CBD",
+  "road_name": "CBD zone, Guntur",
+  "latitude": 16.30259,
+  "longitude": 80.44053
+ },
+ {
+  "city": "Guntur",
+  "state": "Andhra Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Guntur - Railway Station",
+  "road_name": "Railway Station zone, Guntur",
+  "latitude": 16.3211,
+  "longitude": 80.44885
+ },
+ {
+  "city": "Guntur",
+  "state": "Andhra Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Market Area",
+  "location_name": "Guntur - Market Area",
+  "road_name": "Market Area zone, Guntur",
+  "latitude": 16.29238,
+  "longitude": 80.43725
+ },
+ {
+  "city": "Guntur",
+  "state": "Andhra Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Guntur - Ring Road",
+  "road_name": "Guntur Ring Road",
+  "latitude": 16.33612,
+  "longitude": 80.42823
+ },
+ {
+  "city": "Guntur",
+  "state": "Andhra Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Guntur - Highway Bypass",
+  "road_name": "Guntur Bypass (NH)",
+  "latitude": 16.3414,
+  "longitude": 80.40063
+ },
+ {
+  "city": "Gorakhpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "CBD",
+  "location_name": "Gorakhpur - CBD",
+  "road_name": "CBD zone, Gorakhpur",
+  "latitude": 26.75916,
+  "longitude": 83.36329
+ },
+ {
+  "city": "Gorakhpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Gorakhpur - Railway Station",
+  "road_name": "Railway Station zone, Gorakhpur",
+  "latitude": 26.75596,
+  "longitude": 83.35556
+ },
+ {
+  "city": "Gorakhpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Market Area",
+  "location_name": "Gorakhpur - Market Area",
+  "road_name": "Market Area zone, Gorakhpur",
+  "latitude": 26.77623,
+  "longitude": 83.37056
+ },
+ {
+  "city": "Gorakhpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Gorakhpur - Ring Road",
+  "road_name": "Gorakhpur Ring Road",
+  "latitude": 26.78005,
+  "longitude": 83.39427
+ },
+ {
+  "city": "Gorakhpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Gorakhpur - Highway Bypass",
+  "road_name": "Gorakhpur Bypass (NH)",
+  "latitude": 26.72923,
+  "longitude": 83.34
+ },
+ {
+  "city": "Bikaner",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "CBD",
+  "location_name": "Bikaner - CBD",
+  "road_name": "CBD zone, Bikaner",
+  "latitude": 28.02265,
+  "longitude": 73.31715
+ },
+ {
+  "city": "Bikaner",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Bikaner - Railway Station",
+  "road_name": "Railway Station zone, Bikaner",
+  "latitude": 28.03111,
+  "longitude": 73.30085
+ },
+ {
+  "city": "Bikaner",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "Market Area",
+  "location_name": "Bikaner - Market Area",
+  "road_name": "Market Area zone, Bikaner",
+  "latitude": 28.00799,
+  "longitude": 73.31684
+ },
+ {
+  "city": "Bikaner",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Bikaner - Ring Road",
+  "road_name": "Bikaner Ring Road",
+  "latitude": 28.04417,
+  "longitude": 73.33103
+ },
+ {
+  "city": "Bikaner",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bikaner - Highway Bypass",
+  "road_name": "Bikaner Bypass (NH)",
+  "latitude": 28.04506,
+  "longitude": 73.26527
+ },
+ {
+  "city": "Amravati",
+  "state": "Maharashtra",
+  "population_m": 0.7,
+  "zone_kind": "CBD",
+  "location_name": "Amravati - CBD",
+  "road_name": "CBD zone, Amravati",
+  "latitude": 20.92562,
+  "longitude": 77.74462
+ },
+ {
+  "city": "Amravati",
+  "state": "Maharashtra",
+  "population_m": 0.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Amravati - Railway Station",
+  "road_name": "Railway Station zone, Amravati",
+  "latitude": 20.9398,
+  "longitude": 77.75781
+ },
+ {
+  "city": "Amravati",
+  "state": "Maharashtra",
+  "population_m": 0.7,
+  "zone_kind": "Market Area",
+  "location_name": "Amravati - Market Area",
+  "road_name": "Market Area zone, Amravati",
+  "latitude": 20.92811,
+  "longitude": 77.76507
+ },
+ {
+  "city": "Amravati",
+  "state": "Maharashtra",
+  "population_m": 0.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Amravati - Ring Road",
+  "road_name": "Amravati Ring Road",
+  "latitude": 20.90486,
+  "longitude": 77.74056
+ },
+ {
+  "city": "Amravati",
+  "state": "Maharashtra",
+  "population_m": 0.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Amravati - Highway Bypass",
+  "road_name": "Amravati Bypass (NH)",
+  "latitude": 20.88623,
+  "longitude": 77.76001
+ },
+ {
+  "city": "Noida",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "CBD",
+  "location_name": "Noida - CBD",
+  "road_name": "CBD zone, Noida",
+  "latitude": 28.54312,
+  "longitude": 77.39692
+ },
+ {
+  "city": "Noida",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Noida - Railway Station",
+  "road_name": "Railway Station zone, Noida",
+  "latitude": 28.52562,
+  "longitude": 77.39781
+ },
+ {
+  "city": "Noida",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Market Area",
+  "location_name": "Noida - Market Area",
+  "road_name": "Market Area zone, Noida",
+  "latitude": 28.5533,
+  "longitude": 77.38507
+ },
+ {
+  "city": "Noida",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Noida - Ring Road",
+  "road_name": "Noida Ring Road",
+  "latitude": 28.51012,
+  "longitude": 77.36883
+ },
+ {
+  "city": "Noida",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Noida - Highway Bypass",
+  "road_name": "Noida Bypass (NH)",
+  "latitude": 28.57667,
+  "longitude": 77.41345
+ },
+ {
+  "city": "Jamshedpur",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "CBD",
+  "location_name": "Jamshedpur - CBD",
+  "road_name": "CBD zone, Jamshedpur",
+  "latitude": 22.80504,
+  "longitude": 86.19364
+ },
+ {
+  "city": "Jamshedpur",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "Railway Station",
+  "location_name": "Jamshedpur - Railway Station",
+  "road_name": "Railway Station zone, Jamshedpur",
+  "latitude": 22.80089,
+  "longitude": 86.21738
+ },
+ {
+  "city": "Jamshedpur",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "Market Area",
+  "location_name": "Jamshedpur - Market Area",
+  "road_name": "Market Area zone, Jamshedpur",
+  "latitude": 22.81751,
+  "longitude": 86.20511
+ },
+ {
+  "city": "Jamshedpur",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "Ring Road",
+  "location_name": "Jamshedpur - Ring Road",
+  "road_name": "Jamshedpur Ring Road",
+  "latitude": 22.82662,
+  "longitude": 86.21666
+ },
+ {
+  "city": "Jamshedpur",
+  "state": "Jharkhand",
+  "population_m": 1.3,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Jamshedpur - Highway Bypass",
+  "road_name": "Jamshedpur Bypass (NH)",
+  "latitude": 22.78658,
+  "longitude": 86.15312
+ },
+ {
+  "city": "Bhilai",
+  "state": "Chhattisgarh",
+  "population_m": 1.0,
+  "zone_kind": "CBD",
+  "location_name": "Bhilai - CBD",
+  "road_name": "CBD zone, Bhilai",
+  "latitude": 21.21421,
+  "longitude": 81.37525
+ },
+ {
+  "city": "Bhilai",
+  "state": "Chhattisgarh",
+  "population_m": 1.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Bhilai - Railway Station",
+  "road_name": "Railway Station zone, Bhilai",
+  "latitude": 21.19938,
+  "longitude": 81.39143
+ },
+ {
+  "city": "Bhilai",
+  "state": "Chhattisgarh",
+  "population_m": 1.0,
+  "zone_kind": "Market Area",
+  "location_name": "Bhilai - Market Area",
+  "road_name": "Market Area zone, Bhilai",
+  "latitude": 21.22238,
+  "longitude": 81.36729
+ },
+ {
+  "city": "Bhilai",
+  "state": "Chhattisgarh",
+  "population_m": 1.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Bhilai - Ring Road",
+  "road_name": "Bhilai Ring Road",
+  "latitude": 21.24127,
+  "longitude": 81.3938
+ },
+ {
+  "city": "Bhilai",
+  "state": "Chhattisgarh",
+  "population_m": 1.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bhilai - Highway Bypass",
+  "road_name": "Bhilai Bypass (NH)",
+  "latitude": 21.2371,
+  "longitude": 81.33242
+ },
+ {
+  "city": "Cuttack",
+  "state": "Odisha",
+  "population_m": 0.7,
+  "zone_kind": "CBD",
+  "location_name": "Cuttack - CBD",
+  "road_name": "CBD zone, Cuttack",
+  "latitude": 20.4655,
+  "longitude": 85.8833
+ },
+ {
+  "city": "Cuttack",
+  "state": "Odisha",
+  "population_m": 0.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Cuttack - Railway Station",
+  "road_name": "Railway Station zone, Cuttack",
+  "latitude": 20.46538,
+  "longitude": 85.86854
+ },
+ {
+  "city": "Cuttack",
+  "state": "Odisha",
+  "population_m": 0.7,
+  "zone_kind": "Market Area",
+  "location_name": "Cuttack - Market Area",
+  "road_name": "Market Area zone, Cuttack",
+  "latitude": 20.46968,
+  "longitude": 85.88981
+ },
+ {
+  "city": "Cuttack",
+  "state": "Odisha",
+  "population_m": 0.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Cuttack - Ring Road",
+  "road_name": "Cuttack Ring Road",
+  "latitude": 20.46374,
+  "longitude": 85.91276
+ },
+ {
+  "city": "Cuttack",
+  "state": "Odisha",
+  "population_m": 0.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Cuttack - Highway Bypass",
+  "road_name": "Cuttack Bypass (NH)",
+  "latitude": 20.46883,
+  "longitude": 85.83451
+ },
+ {
+  "city": "Kochi",
+  "state": "Kerala",
+  "population_m": 2.1,
+  "zone_kind": "CBD",
+  "location_name": "Kochi - CBD",
+  "road_name": "CBD zone, Kochi",
+  "latitude": 9.92271,
+  "longitude": 76.26525
+ },
+ {
+  "city": "Kochi",
+  "state": "Kerala",
+  "population_m": 2.1,
+  "zone_kind": "Railway Station",
+  "location_name": "Kochi - Railway Station",
+  "road_name": "Railway Station zone, Kochi",
+  "latitude": 9.94082,
+  "longitude": 76.25744
+ },
+ {
+  "city": "Kochi",
+  "state": "Kerala",
+  "population_m": 2.1,
+  "zone_kind": "Market Area",
+  "location_name": "Kochi - Market Area",
+  "road_name": "Market Area zone, Kochi",
+  "latitude": 9.932,
+  "longitude": 76.26169
+ },
+ {
+  "city": "Kochi",
+  "state": "Kerala",
+  "population_m": 2.1,
+  "zone_kind": "Ring Road",
+  "location_name": "Kochi - Ring Road",
+  "road_name": "Kochi Ring Road",
+  "latitude": 9.91645,
+  "longitude": 76.25558
+ },
+ {
+  "city": "Kochi",
+  "state": "Kerala",
+  "population_m": 2.1,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kochi - Highway Bypass",
+  "road_name": "Kochi Bypass (NH)",
+  "latitude": 9.94479,
+  "longitude": 76.25075
+ },
+ {
+  "city": "Kochi",
+  "state": "Kerala",
+  "population_m": 2.1,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Kochi - Residential Arterial",
+  "road_name": "Residential Arterial zone, Kochi",
+  "latitude": 9.92858,
+  "longitude": 76.25399
+ },
+ {
+  "city": "Dehradun",
+  "state": "Uttarakhand",
+  "population_m": 0.8,
+  "zone_kind": "CBD",
+  "location_name": "Dehradun - CBD",
+  "road_name": "CBD zone, Dehradun",
+  "latitude": 30.32425,
+  "longitude": 78.02257
+ },
+ {
+  "city": "Dehradun",
+  "state": "Uttarakhand",
+  "population_m": 0.8,
+  "zone_kind": "Railway Station",
+  "location_name": "Dehradun - Railway Station",
+  "road_name": "Railway Station zone, Dehradun",
+  "latitude": 30.31955,
+  "longitude": 78.0465
+ },
+ {
+  "city": "Dehradun",
+  "state": "Uttarakhand",
+  "population_m": 0.8,
+  "zone_kind": "Market Area",
+  "location_name": "Dehradun - Market Area",
+  "road_name": "Market Area zone, Dehradun",
+  "latitude": 30.33025,
+  "longitude": 78.04678
+ },
+ {
+  "city": "Dehradun",
+  "state": "Uttarakhand",
+  "population_m": 0.8,
+  "zone_kind": "Ring Road",
+  "location_name": "Dehradun - Ring Road",
+  "road_name": "Dehradun Ring Road",
+  "latitude": 30.30382,
+  "longitude": 78.06544
+ },
+ {
+  "city": "Dehradun",
+  "state": "Uttarakhand",
+  "population_m": 0.8,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Dehradun - Highway Bypass",
+  "road_name": "Dehradun Bypass (NH)",
+  "latitude": 30.30377,
+  "longitude": 77.97743
+ },
+ {
+  "city": "Durgapur",
+  "state": "West Bengal",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Durgapur - CBD",
+  "road_name": "CBD zone, Durgapur",
+  "latitude": 23.5474,
+  "longitude": 87.31409
+ },
+ {
+  "city": "Durgapur",
+  "state": "West Bengal",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Durgapur - Railway Station",
+  "road_name": "Railway Station zone, Durgapur",
+  "latitude": 23.53907,
+  "longitude": 87.31453
+ },
+ {
+  "city": "Durgapur",
+  "state": "West Bengal",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Durgapur - Market Area",
+  "road_name": "Market Area zone, Durgapur",
+  "latitude": 23.56371,
+  "longitude": 87.31689
+ },
+ {
+  "city": "Durgapur",
+  "state": "West Bengal",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Durgapur - Ring Road",
+  "road_name": "Durgapur Ring Road",
+  "latitude": 23.52148,
+  "longitude": 87.32491
+ },
+ {
+  "city": "Durgapur",
+  "state": "West Bengal",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Durgapur - Highway Bypass",
+  "road_name": "Durgapur Bypass (NH)",
+  "latitude": 23.50983,
+  "longitude": 87.28996
+ },
+ {
+  "city": "Asansol",
+  "state": "West Bengal",
+  "population_m": 1.2,
+  "zone_kind": "CBD",
+  "location_name": "Asansol - CBD",
+  "road_name": "CBD zone, Asansol",
+  "latitude": 23.68044,
+  "longitude": 86.98906
+ },
+ {
+  "city": "Asansol",
+  "state": "West Bengal",
+  "population_m": 1.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Asansol - Railway Station",
+  "road_name": "Railway Station zone, Asansol",
+  "latitude": 23.69345,
+  "longitude": 86.9733
+ },
+ {
+  "city": "Asansol",
+  "state": "West Bengal",
+  "population_m": 1.2,
+  "zone_kind": "Market Area",
+  "location_name": "Asansol - Market Area",
+  "road_name": "Market Area zone, Asansol",
+  "latitude": 23.69429,
+  "longitude": 86.99198
+ },
+ {
+  "city": "Asansol",
+  "state": "West Bengal",
+  "population_m": 1.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Asansol - Ring Road",
+  "road_name": "Asansol Ring Road",
+  "latitude": 23.68939,
+  "longitude": 86.94775
+ },
+ {
+  "city": "Asansol",
+  "state": "West Bengal",
+  "population_m": 1.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Asansol - Highway Bypass",
+  "road_name": "Asansol Bypass (NH)",
+  "latitude": 23.65618,
+  "longitude": 86.93791
+ },
+ {
+  "city": "Nanded",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Nanded - CBD",
+  "road_name": "CBD zone, Nanded",
+  "latitude": 19.14399,
+  "longitude": 77.31592
+ },
+ {
+  "city": "Nanded",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Nanded - Railway Station",
+  "road_name": "Railway Station zone, Nanded",
+  "latitude": 19.15101,
+  "longitude": 77.32824
+ },
+ {
+  "city": "Nanded",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Nanded - Market Area",
+  "road_name": "Market Area zone, Nanded",
+  "latitude": 19.15292,
+  "longitude": 77.31008
+ },
+ {
+  "city": "Nanded",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Nanded - Ring Road",
+  "road_name": "Nanded Ring Road",
+  "latitude": 19.14946,
+  "longitude": 77.35057
+ },
+ {
+  "city": "Nanded",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Nanded - Highway Bypass",
+  "road_name": "Nanded Bypass (NH)",
+  "latitude": 19.18313,
+  "longitude": 77.30641
+ },
+ {
+  "city": "Kolhapur",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Kolhapur - CBD",
+  "road_name": "CBD zone, Kolhapur",
+  "latitude": 16.69452,
+  "longitude": 74.23642
+ },
+ {
+  "city": "Kolhapur",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Kolhapur - Railway Station",
+  "road_name": "Railway Station zone, Kolhapur",
+  "latitude": 16.70738,
+  "longitude": 74.23103
+ },
+ {
+  "city": "Kolhapur",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Kolhapur - Market Area",
+  "road_name": "Market Area zone, Kolhapur",
+  "latitude": 16.68482,
+  "longitude": 74.23705
+ },
+ {
+  "city": "Kolhapur",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Kolhapur - Ring Road",
+  "road_name": "Kolhapur Ring Road",
+  "latitude": 16.71513,
+  "longitude": 74.26392
+ },
+ {
+  "city": "Kolhapur",
+  "state": "Maharashtra",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kolhapur - Highway Bypass",
+  "road_name": "Kolhapur Bypass (NH)",
+  "latitude": 16.73468,
+  "longitude": 74.26065
+ },
+ {
+  "city": "Ajmer",
+  "state": "Rajasthan",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Ajmer - CBD",
+  "road_name": "CBD zone, Ajmer",
+  "latitude": 26.44418,
+  "longitude": 74.63931
+ },
+ {
+  "city": "Ajmer",
+  "state": "Rajasthan",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Ajmer - Railway Station",
+  "road_name": "Railway Station zone, Ajmer",
+  "latitude": 26.4511,
+  "longitude": 74.62404
+ },
+ {
+  "city": "Ajmer",
+  "state": "Rajasthan",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Ajmer - Market Area",
+  "road_name": "Market Area zone, Ajmer",
+  "latitude": 26.4489,
+  "longitude": 74.65893
+ },
+ {
+  "city": "Ajmer",
+  "state": "Rajasthan",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Ajmer - Ring Road",
+  "road_name": "Ajmer Ring Road",
+  "latitude": 26.43954,
+  "longitude": 74.66789
+ },
+ {
+  "city": "Ajmer",
+  "state": "Rajasthan",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Ajmer - Highway Bypass",
+  "road_name": "Ajmer Bypass (NH)",
+  "latitude": 26.48274,
+  "longitude": 74.68031
+ },
+ {
+  "city": "Kalaburagi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Kalaburagi - CBD",
+  "road_name": "CBD zone, Kalaburagi",
+  "latitude": 17.33449,
+  "longitude": 76.83412
+ },
+ {
+  "city": "Kalaburagi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Kalaburagi - Railway Station",
+  "road_name": "Railway Station zone, Kalaburagi",
+  "latitude": 17.34122,
+  "longitude": 76.82306
+ },
+ {
+  "city": "Kalaburagi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Kalaburagi - Market Area",
+  "road_name": "Market Area zone, Kalaburagi",
+  "latitude": 17.33749,
+  "longitude": 76.84113
+ },
+ {
+  "city": "Kalaburagi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Kalaburagi - Ring Road",
+  "road_name": "Kalaburagi Ring Road",
+  "latitude": 17.33009,
+  "longitude": 76.85924
+ },
+ {
+  "city": "Kalaburagi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kalaburagi - Highway Bypass",
+  "road_name": "Kalaburagi Bypass (NH)",
+  "latitude": 17.31689,
+  "longitude": 76.79202
+ },
+ {
+  "city": "Jamnagar",
+  "state": "Gujarat",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Jamnagar - CBD",
+  "road_name": "CBD zone, Jamnagar",
+  "latitude": 22.46802,
+  "longitude": 70.07593
+ },
+ {
+  "city": "Jamnagar",
+  "state": "Gujarat",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Jamnagar - Railway Station",
+  "road_name": "Railway Station zone, Jamnagar",
+  "latitude": 22.48281,
+  "longitude": 70.0751
+ },
+ {
+  "city": "Jamnagar",
+  "state": "Gujarat",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Jamnagar - Market Area",
+  "road_name": "Market Area zone, Jamnagar",
+  "latitude": 22.47084,
+  "longitude": 70.0845
+ },
+ {
+  "city": "Jamnagar",
+  "state": "Gujarat",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Jamnagar - Ring Road",
+  "road_name": "Jamnagar Ring Road",
+  "latitude": 22.50077,
+  "longitude": 70.0717
+ },
+ {
+  "city": "Jamnagar",
+  "state": "Gujarat",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Jamnagar - Highway Bypass",
+  "road_name": "Jamnagar Bypass (NH)",
+  "latitude": 22.44649,
+  "longitude": 70.10223
+ },
+ {
+  "city": "Ujjain",
+  "state": "Madhya Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Ujjain - CBD",
+  "road_name": "CBD zone, Ujjain",
+  "latitude": 23.18465,
+  "longitude": 75.77635
+ },
+ {
+  "city": "Ujjain",
+  "state": "Madhya Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Ujjain - Railway Station",
+  "road_name": "Railway Station zone, Ujjain",
+  "latitude": 23.1719,
+  "longitude": 75.7879
+ },
+ {
+  "city": "Ujjain",
+  "state": "Madhya Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Ujjain - Market Area",
+  "road_name": "Market Area zone, Ujjain",
+  "latitude": 23.17822,
+  "longitude": 75.79676
+ },
+ {
+  "city": "Ujjain",
+  "state": "Madhya Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Ujjain - Ring Road",
+  "road_name": "Ujjain Ring Road",
+  "latitude": 23.17792,
+  "longitude": 75.75249
+ },
+ {
+  "city": "Ujjain",
+  "state": "Madhya Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Ujjain - Highway Bypass",
+  "road_name": "Ujjain Bypass (NH)",
+  "latitude": 23.18492,
+  "longitude": 75.82582
+ },
+ {
+  "city": "Siliguri",
+  "state": "West Bengal",
+  "population_m": 0.8,
+  "zone_kind": "CBD",
+  "location_name": "Siliguri - CBD",
+  "road_name": "CBD zone, Siliguri",
+  "latitude": 26.72827,
+  "longitude": 88.39375
+ },
+ {
+  "city": "Siliguri",
+  "state": "West Bengal",
+  "population_m": 0.8,
+  "zone_kind": "Railway Station",
+  "location_name": "Siliguri - Railway Station",
+  "road_name": "Railway Station zone, Siliguri",
+  "latitude": 26.7424,
+  "longitude": 88.40708
+ },
+ {
+  "city": "Siliguri",
+  "state": "West Bengal",
+  "population_m": 0.8,
+  "zone_kind": "Market Area",
+  "location_name": "Siliguri - Market Area",
+  "road_name": "Market Area zone, Siliguri",
+  "latitude": 26.71203,
+  "longitude": 88.40039
+ },
+ {
+  "city": "Siliguri",
+  "state": "West Bengal",
+  "population_m": 0.8,
+  "zone_kind": "Ring Road",
+  "location_name": "Siliguri - Ring Road",
+  "road_name": "Siliguri Ring Road",
+  "latitude": 26.74111,
+  "longitude": 88.42869
+ },
+ {
+  "city": "Siliguri",
+  "state": "West Bengal",
+  "population_m": 0.8,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Siliguri - Highway Bypass",
+  "road_name": "Siliguri Bypass (NH)",
+  "latitude": 26.71944,
+  "longitude": 88.34507
+ },
+ {
+  "city": "Jhansi",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Jhansi - CBD",
+  "road_name": "CBD zone, Jhansi",
+  "latitude": 25.45331,
+  "longitude": 78.56494
+ },
+ {
+  "city": "Jhansi",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Jhansi - Railway Station",
+  "road_name": "Railway Station zone, Jhansi",
+  "latitude": 25.46168,
+  "longitude": 78.57832
+ },
+ {
+  "city": "Jhansi",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Jhansi - Market Area",
+  "road_name": "Market Area zone, Jhansi",
+  "latitude": 25.45773,
+  "longitude": 78.55347
+ },
+ {
+  "city": "Jhansi",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Jhansi - Ring Road",
+  "road_name": "Jhansi Ring Road",
+  "latitude": 25.47119,
+  "longitude": 78.5459
+ },
+ {
+  "city": "Jhansi",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Jhansi - Highway Bypass",
+  "road_name": "Jhansi Bypass (NH)",
+  "latitude": 25.40658,
+  "longitude": 78.55449
+ },
+ {
+  "city": "Mangaluru",
+  "state": "Karnataka",
+  "population_m": 0.7,
+  "zone_kind": "CBD",
+  "location_name": "Mangaluru - CBD",
+  "road_name": "CBD zone, Mangaluru",
+  "latitude": 12.91245,
+  "longitude": 74.85273
+ },
+ {
+  "city": "Mangaluru",
+  "state": "Karnataka",
+  "population_m": 0.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Mangaluru - Railway Station",
+  "road_name": "Railway Station zone, Mangaluru",
+  "latitude": 12.89984,
+  "longitude": 74.85221
+ },
+ {
+  "city": "Mangaluru",
+  "state": "Karnataka",
+  "population_m": 0.7,
+  "zone_kind": "Market Area",
+  "location_name": "Mangaluru - Market Area",
+  "road_name": "Market Area zone, Mangaluru",
+  "latitude": 12.91105,
+  "longitude": 74.87464
+ },
+ {
+  "city": "Mangaluru",
+  "state": "Karnataka",
+  "population_m": 0.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Mangaluru - Ring Road",
+  "road_name": "Mangaluru Ring Road",
+  "latitude": 12.90553,
+  "longitude": 74.88919
+ },
+ {
+  "city": "Mangaluru",
+  "state": "Karnataka",
+  "population_m": 0.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Mangaluru - Highway Bypass",
+  "road_name": "Mangaluru Bypass (NH)",
+  "latitude": 12.90788,
+  "longitude": 74.9076
+ },
+ {
+  "city": "Belagavi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Belagavi - CBD",
+  "road_name": "CBD zone, Belagavi",
+  "latitude": 15.84385,
+  "longitude": 74.49824
+ },
+ {
+  "city": "Belagavi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Belagavi - Railway Station",
+  "road_name": "Railway Station zone, Belagavi",
+  "latitude": 15.8454,
+  "longitude": 74.4897
+ },
+ {
+  "city": "Belagavi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Belagavi - Market Area",
+  "road_name": "Market Area zone, Belagavi",
+  "latitude": 15.83912,
+  "longitude": 74.50847
+ },
+ {
+  "city": "Belagavi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Belagavi - Ring Road",
+  "road_name": "Belagavi Ring Road",
+  "latitude": 15.8681,
+  "longitude": 74.52071
+ },
+ {
+  "city": "Belagavi",
+  "state": "Karnataka",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Belagavi - Highway Bypass",
+  "road_name": "Belagavi Bypass (NH)",
+  "latitude": 15.89205,
+  "longitude": 74.47567
+ },
+ {
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "CBD",
+  "location_name": "Udaipur - CBD",
+  "road_name": "CBD zone, Udaipur",
+  "latitude": 24.58489,
+  "longitude": 73.68312
+ },
+ {
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Udaipur - Railway Station",
+  "road_name": "Railway Station zone, Udaipur",
+  "latitude": 24.56772,
+  "longitude": 73.67115
+ },
+ {
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "Market Area",
+  "location_name": "Udaipur - Market Area",
+  "road_name": "Market Area zone, Udaipur",
+  "latitude": 24.59098,
+  "longitude": 73.69186
+ },
+ {
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Udaipur - Ring Road",
+  "road_name": "Udaipur Ring Road",
+  "latitude": 24.60602,
+  "longitude": 73.69669
+ },
+ {
+  "city": "Udaipur",
+  "state": "Rajasthan",
+  "population_m": 0.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Udaipur - Highway Bypass",
+  "road_name": "Udaipur Bypass (NH)",
+  "latitude": 24.58461,
+  "longitude": 73.62521
+ },
+ {
+  "city": "Shimla",
+  "state": "Himachal Pradesh",
+  "population_m": 0.2,
+  "zone_kind": "CBD",
+  "location_name": "Shimla - CBD",
+  "road_name": "CBD zone, Shimla",
+  "latitude": 31.09887,
+  "longitude": 77.17654
+ },
+ {
+  "city": "Shimla",
+  "state": "Himachal Pradesh",
+  "population_m": 0.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Shimla - Railway Station",
+  "road_name": "Railway Station zone, Shimla",
+  "latitude": 31.09243,
+  "longitude": 77.16061
+ },
+ {
+  "city": "Shimla",
+  "state": "Himachal Pradesh",
+  "population_m": 0.2,
+  "zone_kind": "Market Area",
+  "location_name": "Shimla - Market Area",
+  "road_name": "Market Area zone, Shimla",
+  "latitude": 31.0889,
+  "longitude": 77.17674
+ },
+ {
+  "city": "Shimla",
+  "state": "Himachal Pradesh",
+  "population_m": 0.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Shimla - Ring Road",
+  "road_name": "Shimla Ring Road",
+  "latitude": 31.12029,
+  "longitude": 77.14621
+ },
+ {
+  "city": "Shimla",
+  "state": "Himachal Pradesh",
+  "population_m": 0.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Shimla - Highway Bypass",
+  "road_name": "Shimla Bypass (NH)",
+  "latitude": 31.06495,
+  "longitude": 77.15889
+ },
+ {
+  "city": "Panaji",
+  "state": "Goa",
+  "population_m": 0.2,
+  "zone_kind": "CBD",
+  "location_name": "Panaji - CBD",
+  "road_name": "CBD zone, Panaji",
+  "latitude": 15.49738,
+  "longitude": 73.83035
+ },
+ {
+  "city": "Panaji",
+  "state": "Goa",
+  "population_m": 0.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Panaji - Railway Station",
+  "road_name": "Railway Station zone, Panaji",
+  "latitude": 15.49314,
+  "longitude": 73.82373
+ },
+ {
+  "city": "Panaji",
+  "state": "Goa",
+  "population_m": 0.2,
+  "zone_kind": "Market Area",
+  "location_name": "Panaji - Market Area",
+  "road_name": "Market Area zone, Panaji",
+  "latitude": 15.49049,
+  "longitude": 73.83342
+ },
+ {
+  "city": "Panaji",
+  "state": "Goa",
+  "population_m": 0.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Panaji - Ring Road",
+  "road_name": "Panaji Ring Road",
+  "latitude": 15.4788,
+  "longitude": 73.83955
+ },
+ {
+  "city": "Panaji",
+  "state": "Goa",
+  "population_m": 0.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Panaji - Highway Bypass",
+  "road_name": "Panaji Bypass (NH)",
+  "latitude": 15.50087,
+  "longitude": 73.86804
+ },
+ {
+  "city": "Puducherry",
+  "state": "Puducherry",
+  "population_m": 0.9,
+  "zone_kind": "CBD",
+  "location_name": "Puducherry - CBD",
+  "road_name": "CBD zone, Puducherry",
+  "latitude": 11.93494,
+  "longitude": 79.82695
+ },
+ {
+  "city": "Puducherry",
+  "state": "Puducherry",
+  "population_m": 0.9,
+  "zone_kind": "Railway Station",
+  "location_name": "Puducherry - Railway Station",
+  "road_name": "Railway Station zone, Puducherry",
+  "latitude": 11.92807,
+  "longitude": 79.81601
+ },
+ {
+  "city": "Puducherry",
+  "state": "Puducherry",
+  "population_m": 0.9,
+  "zone_kind": "Market Area",
+  "location_name": "Puducherry - Market Area",
+  "road_name": "Market Area zone, Puducherry",
+  "latitude": 11.93654,
+  "longitude": 79.81829
+ },
+ {
+  "city": "Puducherry",
+  "state": "Puducherry",
+  "population_m": 0.9,
+  "zone_kind": "Ring Road",
+  "location_name": "Puducherry - Ring Road",
+  "road_name": "Puducherry Ring Road",
+  "latitude": 11.91689,
+  "longitude": 79.79898
+ },
+ {
+  "city": "Puducherry",
+  "state": "Puducherry",
+  "population_m": 0.9,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Puducherry - Highway Bypass",
+  "road_name": "Puducherry Bypass (NH)",
+  "latitude": 11.90762,
+  "longitude": 79.79348
+ },
+ {
+  "city": "Imphal",
+  "state": "Manipur",
+  "population_m": 0.4,
+  "zone_kind": "CBD",
+  "location_name": "Imphal - CBD",
+  "road_name": "CBD zone, Imphal",
+  "latitude": 24.81516,
+  "longitude": 93.9429
+ },
+ {
+  "city": "Imphal",
+  "state": "Manipur",
+  "population_m": 0.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Imphal - Railway Station",
+  "road_name": "Railway Station zone, Imphal",
+  "latitude": 24.83111,
+  "longitude": 93.94493
+ },
+ {
+  "city": "Imphal",
+  "state": "Manipur",
+  "population_m": 0.4,
+  "zone_kind": "Market Area",
+  "location_name": "Imphal - Market Area",
+  "road_name": "Market Area zone, Imphal",
+  "latitude": 24.80797,
+  "longitude": 93.95146
+ },
+ {
+  "city": "Imphal",
+  "state": "Manipur",
+  "population_m": 0.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Imphal - Ring Road",
+  "road_name": "Imphal Ring Road",
+  "latitude": 24.8289,
+  "longitude": 93.91391
+ },
+ {
+  "city": "Imphal",
+  "state": "Manipur",
+  "population_m": 0.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Imphal - Highway Bypass",
+  "road_name": "Imphal Bypass (NH)",
+  "latitude": 24.82631,
+  "longitude": 93.9
+ },
+ {
+  "city": "Shillong",
+  "state": "Meghalaya",
+  "population_m": 0.4,
+  "zone_kind": "CBD",
+  "location_name": "Shillong - CBD",
+  "road_name": "CBD zone, Shillong",
+  "latitude": 25.58246,
+  "longitude": 91.89567
+ },
+ {
+  "city": "Shillong",
+  "state": "Meghalaya",
+  "population_m": 0.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Shillong - Railway Station",
+  "road_name": "Railway Station zone, Shillong",
+  "latitude": 25.59056,
+  "longitude": 91.89077
+ },
+ {
+  "city": "Shillong",
+  "state": "Meghalaya",
+  "population_m": 0.4,
+  "zone_kind": "Market Area",
+  "location_name": "Shillong - Market Area",
+  "road_name": "Market Area zone, Shillong",
+  "latitude": 25.58723,
+  "longitude": 91.90348
+ },
+ {
+  "city": "Shillong",
+  "state": "Meghalaya",
+  "population_m": 0.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Shillong - Ring Road",
+  "road_name": "Shillong Ring Road",
+  "latitude": 25.60849,
+  "longitude": 91.87487
+ },
+ {
+  "city": "Shillong",
+  "state": "Meghalaya",
+  "population_m": 0.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Shillong - Highway Bypass",
+  "road_name": "Shillong Bypass (NH)",
+  "latitude": 25.60887,
+  "longitude": 91.85151
+ },
+ {
+  "city": "Gangtok",
+  "state": "Sikkim",
+  "population_m": 0.1,
+  "zone_kind": "CBD",
+  "location_name": "Gangtok - CBD",
+  "road_name": "CBD zone, Gangtok",
+  "latitude": 27.33587,
+  "longitude": 88.60847
+ },
+ {
+  "city": "Gangtok",
+  "state": "Sikkim",
+  "population_m": 0.1,
+  "zone_kind": "Railway Station",
+  "location_name": "Gangtok - Railway Station",
+  "road_name": "Railway Station zone, Gangtok",
+  "latitude": 27.33634,
+  "longitude": 88.61901
+ },
+ {
+  "city": "Gangtok",
+  "state": "Sikkim",
+  "population_m": 0.1,
+  "zone_kind": "Market Area",
+  "location_name": "Gangtok - Market Area",
+  "road_name": "Market Area zone, Gangtok",
+  "latitude": 27.34345,
+  "longitude": 88.5975
+ },
+ {
+  "city": "Gangtok",
+  "state": "Sikkim",
+  "population_m": 0.1,
+  "zone_kind": "Ring Road",
+  "location_name": "Gangtok - Ring Road",
+  "road_name": "Gangtok Ring Road",
+  "latitude": 27.34578,
+  "longitude": 88.63231
+ },
+ {
+  "city": "Gangtok",
+  "state": "Sikkim",
+  "population_m": 0.1,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Gangtok - Highway Bypass",
+  "road_name": "Gangtok Bypass (NH)",
+  "latitude": 27.3658,
+  "longitude": 88.59598
+ },
+ {
+  "city": "Agartala",
+  "state": "Tripura",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Agartala - CBD",
+  "road_name": "CBD zone, Agartala",
+  "latitude": 23.82958,
+  "longitude": 91.28577
+ },
+ {
+  "city": "Agartala",
+  "state": "Tripura",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Agartala - Railway Station",
+  "road_name": "Railway Station zone, Agartala",
+  "latitude": 23.81648,
+  "longitude": 91.28001
+ },
+ {
+  "city": "Agartala",
+  "state": "Tripura",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Agartala - Market Area",
+  "road_name": "Market Area zone, Agartala",
+  "latitude": 23.8388,
+  "longitude": 91.29268
+ },
+ {
+  "city": "Agartala",
+  "state": "Tripura",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Agartala - Ring Road",
+  "road_name": "Agartala Ring Road",
+  "latitude": 23.85403,
+  "longitude": 91.2611
+ },
+ {
+  "city": "Agartala",
+  "state": "Tripura",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Agartala - Highway Bypass",
+  "road_name": "Agartala Bypass (NH)",
+  "latitude": 23.81467,
+  "longitude": 91.3168
+ },
+ {
+  "city": "Aizawl",
+  "state": "Mizoram",
+  "population_m": 0.3,
+  "zone_kind": "CBD",
+  "location_name": "Aizawl - CBD",
+  "road_name": "CBD zone, Aizawl",
+  "latitude": 23.72684,
+  "longitude": 92.7141
+ },
+ {
+  "city": "Aizawl",
+  "state": "Mizoram",
+  "population_m": 0.3,
+  "zone_kind": "Railway Station",
+  "location_name": "Aizawl - Railway Station",
+  "road_name": "Railway Station zone, Aizawl",
+  "latitude": 23.71896,
+  "longitude": 92.72583
+ },
+ {
+  "city": "Aizawl",
+  "state": "Mizoram",
+  "population_m": 0.3,
+  "zone_kind": "Market Area",
+  "location_name": "Aizawl - Market Area",
+  "road_name": "Market Area zone, Aizawl",
+  "latitude": 23.74031,
+  "longitude": 92.72636
+ },
+ {
+  "city": "Aizawl",
+  "state": "Mizoram",
+  "population_m": 0.3,
+  "zone_kind": "Ring Road",
+  "location_name": "Aizawl - Ring Road",
+  "road_name": "Aizawl Ring Road",
+  "latitude": 23.70458,
+  "longitude": 92.72851
+ },
+ {
+  "city": "Aizawl",
+  "state": "Mizoram",
+  "population_m": 0.3,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Aizawl - Highway Bypass",
+  "road_name": "Aizawl Bypass (NH)",
+  "latitude": 23.68934,
+  "longitude": 92.71212
+ },
+ {
+  "city": "Kohima",
+  "state": "Nagaland",
+  "population_m": 0.2,
+  "zone_kind": "CBD",
+  "location_name": "Kohima - CBD",
+  "road_name": "CBD zone, Kohima",
+  "latitude": 25.67144,
+  "longitude": 94.10385
+ },
+ {
+  "city": "Kohima",
+  "state": "Nagaland",
+  "population_m": 0.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Kohima - Railway Station",
+  "road_name": "Railway Station zone, Kohima",
+  "latitude": 25.66184,
+  "longitude": 94.11922
+ },
+ {
+  "city": "Kohima",
+  "state": "Nagaland",
+  "population_m": 0.2,
+  "zone_kind": "Market Area",
+  "location_name": "Kohima - Market Area",
+  "road_name": "Market Area zone, Kohima",
+  "latitude": 25.67351,
+  "longitude": 94.09662
+ },
+ {
+  "city": "Kohima",
+  "state": "Nagaland",
+  "population_m": 0.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Kohima - Ring Road",
+  "road_name": "Kohima Ring Road",
+  "latitude": 25.68276,
+  "longitude": 94.08195
+ },
+ {
+  "city": "Kohima",
+  "state": "Nagaland",
+  "population_m": 0.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kohima - Highway Bypass",
+  "road_name": "Kohima Bypass (NH)",
+  "latitude": 25.64616,
+  "longitude": 94.13655
+ },
+ {
+  "city": "Itanagar",
+  "state": "Arunachal Pradesh",
+  "population_m": 0.1,
+  "zone_kind": "CBD",
+  "location_name": "Itanagar - CBD",
+  "road_name": "CBD zone, Itanagar",
+  "latitude": 27.07677,
+  "longitude": 93.61625
+ },
+ {
+  "city": "Itanagar",
+  "state": "Arunachal Pradesh",
+  "population_m": 0.1,
+  "zone_kind": "Railway Station",
+  "location_name": "Itanagar - Railway Station",
+  "road_name": "Railway Station zone, Itanagar",
+  "latitude": 27.07378,
+  "longitude": 93.63017
+ },
+ {
+  "city": "Itanagar",
+  "state": "Arunachal Pradesh",
+  "population_m": 0.1,
+  "zone_kind": "Market Area",
+  "location_name": "Itanagar - Market Area",
+  "road_name": "Market Area zone, Itanagar",
+  "latitude": 27.09129,
+  "longitude": 93.62789
+ },
+ {
+  "city": "Itanagar",
+  "state": "Arunachal Pradesh",
+  "population_m": 0.1,
+  "zone_kind": "Ring Road",
+  "location_name": "Itanagar - Ring Road",
+  "road_name": "Itanagar Ring Road",
+  "latitude": 27.07132,
+  "longitude": 93.64579
+ },
+ {
+  "city": "Itanagar",
+  "state": "Arunachal Pradesh",
+  "population_m": 0.1,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Itanagar - Highway Bypass",
+  "road_name": "Itanagar Bypass (NH)",
+  "latitude": 27.05569,
+  "longitude": 93.64318
+ },
+ {
+  "city": "Jammu",
+  "state": "Jammu and Kashmir",
+  "population_m": 0.7,
+  "zone_kind": "CBD",
+  "location_name": "Jammu - CBD",
+  "road_name": "CBD zone, Jammu",
+  "latitude": 32.73567,
+  "longitude": 74.8688
+ },
+ {
+  "city": "Jammu",
+  "state": "Jammu and Kashmir",
+  "population_m": 0.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Jammu - Railway Station",
+  "road_name": "Railway Station zone, Jammu",
+  "latitude": 32.74254,
+  "longitude": 74.86963
+ },
+ {
+  "city": "Jammu",
+  "state": "Jammu and Kashmir",
+  "population_m": 0.7,
+  "zone_kind": "Market Area",
+  "location_name": "Jammu - Market Area",
+  "road_name": "Market Area zone, Jammu",
+  "latitude": 32.73354,
+  "longitude": 74.8884
+ },
+ {
+  "city": "Jammu",
+  "state": "Jammu and Kashmir",
+  "population_m": 0.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Jammu - Ring Road",
+  "road_name": "Jammu Ring Road",
+  "latitude": 32.74906,
+  "longitude": 74.84881
+ },
+ {
+  "city": "Jammu",
+  "state": "Jammu and Kashmir",
+  "population_m": 0.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Jammu - Highway Bypass",
+  "road_name": "Jammu Bypass (NH)",
+  "latitude": 32.74847,
+  "longitude": 74.81532
+ },
+ {
+  "city": "Port Blair",
+  "state": "Andaman and Nicobar",
+  "population_m": 0.15,
+  "zone_kind": "CBD",
+  "location_name": "Port Blair - CBD",
+  "road_name": "CBD zone, Port Blair",
+  "latitude": 11.61488,
+  "longitude": 92.72979
+ },
+ {
+  "city": "Port Blair",
+  "state": "Andaman and Nicobar",
+  "population_m": 0.15,
+  "zone_kind": "Railway Station",
+  "location_name": "Port Blair - Railway Station",
+  "road_name": "Railway Station zone, Port Blair",
+  "latitude": 11.60812,
+  "longitude": 92.73136
+ },
+ {
+  "city": "Port Blair",
+  "state": "Andaman and Nicobar",
+  "population_m": 0.15,
+  "zone_kind": "Market Area",
+  "location_name": "Port Blair - Market Area",
+  "road_name": "Market Area zone, Port Blair",
+  "latitude": 11.63036,
+  "longitude": 92.73674
+ },
+ {
+  "city": "Port Blair",
+  "state": "Andaman and Nicobar",
+  "population_m": 0.15,
+  "zone_kind": "Ring Road",
+  "location_name": "Port Blair - Ring Road",
+  "road_name": "Port Blair Ring Road",
+  "latitude": 11.60578,
+  "longitude": 92.71503
+ },
+ {
+  "city": "Port Blair",
+  "state": "Andaman and Nicobar",
+  "population_m": 0.15,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Port Blair - Highway Bypass",
+  "road_name": "Port Blair Bypass (NH)",
+  "latitude": 11.64993,
+  "longitude": 92.74043
+ },
+ {
+  "city": "Thrissur",
+  "state": "Kerala",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Thrissur - CBD",
+  "road_name": "CBD zone, Thrissur",
+  "latitude": 10.53409,
+  "longitude": 76.21464
+ },
+ {
+  "city": "Thrissur",
+  "state": "Kerala",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Thrissur - Railway Station",
+  "road_name": "Railway Station zone, Thrissur",
+  "latitude": 10.53929,
+  "longitude": 76.20098
+ },
+ {
+  "city": "Thrissur",
+  "state": "Kerala",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Thrissur - Market Area",
+  "road_name": "Market Area zone, Thrissur",
+  "latitude": 10.52966,
+  "longitude": 76.22733
+ },
+ {
+  "city": "Thrissur",
+  "state": "Kerala",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Thrissur - Ring Road",
+  "road_name": "Thrissur Ring Road",
+  "latitude": 10.53017,
+  "longitude": 76.23613
+ },
+ {
+  "city": "Thrissur",
+  "state": "Kerala",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Thrissur - Highway Bypass",
+  "road_name": "Thrissur Bypass (NH)",
+  "latitude": 10.54881,
+  "longitude": 76.24649
+ },
+ {
+  "city": "Kozhikode",
+  "state": "Kerala",
+  "population_m": 2.0,
+  "zone_kind": "CBD",
+  "location_name": "Kozhikode - CBD",
+  "road_name": "CBD zone, Kozhikode",
+  "latitude": 11.26824,
+  "longitude": 75.78128
+ },
+ {
+  "city": "Kozhikode",
+  "state": "Kerala",
+  "population_m": 2.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Kozhikode - Railway Station",
+  "road_name": "Railway Station zone, Kozhikode",
+  "latitude": 11.25042,
+  "longitude": 75.79223
+ },
+ {
+  "city": "Kozhikode",
+  "state": "Kerala",
+  "population_m": 2.0,
+  "zone_kind": "Market Area",
+  "location_name": "Kozhikode - Market Area",
+  "road_name": "Market Area zone, Kozhikode",
+  "latitude": 11.27223,
+  "longitude": 75.7947
+ },
+ {
+  "city": "Kozhikode",
+  "state": "Kerala",
+  "population_m": 2.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Kozhikode - Ring Road",
+  "road_name": "Kozhikode Ring Road",
+  "latitude": 11.2954,
+  "longitude": 75.79506
+ },
+ {
+  "city": "Kozhikode",
+  "state": "Kerala",
+  "population_m": 2.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kozhikode - Highway Bypass",
+  "road_name": "Kozhikode Bypass (NH)",
+  "latitude": 11.21984,
+  "longitude": 75.81659
+ },
+ {
+  "city": "Kozhikode",
+  "state": "Kerala",
+  "population_m": 2.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Kozhikode - Residential Arterial",
+  "road_name": "Residential Arterial zone, Kozhikode",
+  "latitude": 11.28924,
+  "longitude": 75.78319
+ },
+ {
+  "city": "Tirupati",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Tirupati - CBD",
+  "road_name": "CBD zone, Tirupati",
+  "latitude": 13.6266,
+  "longitude": 79.41551
+ },
+ {
+  "city": "Tirupati",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Tirupati - Railway Station",
+  "road_name": "Railway Station zone, Tirupati",
+  "latitude": 13.61781,
+  "longitude": 79.41263
+ },
+ {
+  "city": "Tirupati",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Tirupati - Market Area",
+  "road_name": "Market Area zone, Tirupati",
+  "latitude": 13.61481,
+  "longitude": 79.4196
+ },
+ {
+  "city": "Tirupati",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Tirupati - Ring Road",
+  "road_name": "Tirupati Ring Road",
+  "latitude": 13.6159,
+  "longitude": 79.39838
+ },
+ {
+  "city": "Tirupati",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Tirupati - Highway Bypass",
+  "road_name": "Tirupati Bypass (NH)",
+  "latitude": 13.59102,
+  "longitude": 79.41068
+ },
+ {
+  "city": "Nellore",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Nellore - CBD",
+  "road_name": "CBD zone, Nellore",
+  "latitude": 14.44019,
+  "longitude": 79.98333
+ },
+ {
+  "city": "Nellore",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Nellore - Railway Station",
+  "road_name": "Railway Station zone, Nellore",
+  "latitude": 14.44878,
+  "longitude": 79.98118
+ },
+ {
+  "city": "Nellore",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Nellore - Market Area",
+  "road_name": "Market Area zone, Nellore",
+  "latitude": 14.44434,
+  "longitude": 80.00509
+ },
+ {
+  "city": "Nellore",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Nellore - Ring Road",
+  "road_name": "Nellore Ring Road",
+  "latitude": 14.43237,
+  "longitude": 80.0237
+ },
+ {
+  "city": "Nellore",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Nellore - Highway Bypass",
+  "road_name": "Nellore Bypass (NH)",
+  "latitude": 14.41576,
+  "longitude": 79.95799
+ },
+ {
+  "city": "Rajahmundry",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Rajahmundry - CBD",
+  "road_name": "CBD zone, Rajahmundry",
+  "latitude": 16.99451,
+  "longitude": 81.77955
+ },
+ {
+  "city": "Rajahmundry",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Rajahmundry - Railway Station",
+  "road_name": "Railway Station zone, Rajahmundry",
+  "latitude": 16.98625,
+  "longitude": 81.77701
+ },
+ {
+  "city": "Rajahmundry",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Rajahmundry - Market Area",
+  "road_name": "Market Area zone, Rajahmundry",
+  "latitude": 17.01386,
+  "longitude": 81.78276
+ },
+ {
+  "city": "Rajahmundry",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Rajahmundry - Ring Road",
+  "road_name": "Rajahmundry Ring Road",
+  "latitude": 17.02548,
+  "longitude": 81.79059
+ },
+ {
+  "city": "Rajahmundry",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Rajahmundry - Highway Bypass",
+  "road_name": "Rajahmundry Bypass (NH)",
+  "latitude": 17.03271,
+  "longitude": 81.7496
+ },
+ {
+  "city": "Kurnool",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Kurnool - CBD",
+  "road_name": "CBD zone, Kurnool",
+  "latitude": 15.83052,
+  "longitude": 78.04629
+ },
+ {
+  "city": "Kurnool",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Kurnool - Railway Station",
+  "road_name": "Railway Station zone, Kurnool",
+  "latitude": 15.83396,
+  "longitude": 78.02862
+ },
+ {
+  "city": "Kurnool",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Kurnool - Market Area",
+  "road_name": "Market Area zone, Kurnool",
+  "latitude": 15.83677,
+  "longitude": 78.05524
+ },
+ {
+  "city": "Kurnool",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Kurnool - Ring Road",
+  "road_name": "Kurnool Ring Road",
+  "latitude": 15.85441,
+  "longitude": 78.03078
+ },
+ {
+  "city": "Kurnool",
+  "state": "Andhra Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kurnool - Highway Bypass",
+  "road_name": "Kurnool Bypass (NH)",
+  "latitude": 15.84875,
+  "longitude": 77.99489
+ },
+ {
+  "city": "Moradabad",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "CBD",
+  "location_name": "Moradabad - CBD",
+  "road_name": "CBD zone, Moradabad",
+  "latitude": 28.84539,
+  "longitude": 78.78319
+ },
+ {
+  "city": "Moradabad",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Moradabad - Railway Station",
+  "road_name": "Railway Station zone, Moradabad",
+  "latitude": 28.83393,
+  "longitude": 78.7641
+ },
+ {
+  "city": "Moradabad",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Market Area",
+  "location_name": "Moradabad - Market Area",
+  "road_name": "Market Area zone, Moradabad",
+  "latitude": 28.84818,
+  "longitude": 78.76263
+ },
+ {
+  "city": "Moradabad",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Moradabad - Ring Road",
+  "road_name": "Moradabad Ring Road",
+  "latitude": 28.87147,
+  "longitude": 78.77628
+ },
+ {
+  "city": "Moradabad",
+  "state": "Uttar Pradesh",
+  "population_m": 1.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Moradabad - Highway Bypass",
+  "road_name": "Moradabad Bypass (NH)",
+  "latitude": 28.86021,
+  "longitude": 78.82057
+ },
+ {
+  "city": "Gaya",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Gaya - CBD",
+  "road_name": "CBD zone, Gaya",
+  "latitude": 24.79295,
+  "longitude": 85.00038
+ },
+ {
+  "city": "Gaya",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Gaya - Railway Station",
+  "road_name": "Railway Station zone, Gaya",
+  "latitude": 24.79958,
+  "longitude": 85.01224
+ },
+ {
+  "city": "Gaya",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Gaya - Market Area",
+  "road_name": "Market Area zone, Gaya",
+  "latitude": 24.80395,
+  "longitude": 84.98609
+ },
+ {
+  "city": "Gaya",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Gaya - Ring Road",
+  "road_name": "Gaya Ring Road",
+  "latitude": 24.78088,
+  "longitude": 85.0185
+ },
+ {
+  "city": "Gaya",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Gaya - Highway Bypass",
+  "road_name": "Gaya Bypass (NH)",
+  "latitude": 24.78327,
+  "longitude": 84.96398
+ },
+ {
+  "city": "Muzaffarpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Muzaffarpur - CBD",
+  "road_name": "CBD zone, Muzaffarpur",
+  "latitude": 26.11523,
+  "longitude": 85.39415
+ },
+ {
+  "city": "Muzaffarpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Muzaffarpur - Railway Station",
+  "road_name": "Railway Station zone, Muzaffarpur",
+  "latitude": 26.11143,
+  "longitude": 85.38286
+ },
+ {
+  "city": "Muzaffarpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Muzaffarpur - Market Area",
+  "road_name": "Market Area zone, Muzaffarpur",
+  "latitude": 26.10817,
+  "longitude": 85.39386
+ },
+ {
+  "city": "Muzaffarpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Muzaffarpur - Ring Road",
+  "road_name": "Muzaffarpur Ring Road",
+  "latitude": 26.11693,
+  "longitude": 85.35824
+ },
+ {
+  "city": "Muzaffarpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Muzaffarpur - Highway Bypass",
+  "road_name": "Muzaffarpur Bypass (NH)",
+  "latitude": 26.08524,
+  "longitude": 85.41598
+ },
+ {
+  "city": "Bhagalpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Bhagalpur - CBD",
+  "road_name": "CBD zone, Bhagalpur",
+  "latitude": 25.24561,
+  "longitude": 86.96989
+ },
+ {
+  "city": "Bhagalpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Bhagalpur - Railway Station",
+  "road_name": "Railway Station zone, Bhagalpur",
+  "latitude": 25.24537,
+  "longitude": 86.95717
+ },
+ {
+  "city": "Bhagalpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Bhagalpur - Market Area",
+  "road_name": "Market Area zone, Bhagalpur",
+  "latitude": 25.25224,
+  "longitude": 86.96536
+ },
+ {
+  "city": "Bhagalpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Bhagalpur - Ring Road",
+  "road_name": "Bhagalpur Ring Road",
+  "latitude": 25.21712,
+  "longitude": 86.98289
+ },
+ {
+  "city": "Bhagalpur",
+  "state": "Bihar",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bhagalpur - Highway Bypass",
+  "road_name": "Bhagalpur Bypass (NH)",
+  "latitude": 25.22509,
+  "longitude": 86.924
+ },
+ {
+  "city": "Rourkela",
+  "state": "Odisha",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Rourkela - CBD",
+  "road_name": "CBD zone, Rourkela",
+  "latitude": 22.26325,
+  "longitude": 84.85488
+ },
+ {
+  "city": "Rourkela",
+  "state": "Odisha",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Rourkela - Railway Station",
+  "road_name": "Railway Station zone, Rourkela",
+  "latitude": 22.24631,
+  "longitude": 84.85432
+ },
+ {
+  "city": "Rourkela",
+  "state": "Odisha",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Rourkela - Market Area",
+  "road_name": "Market Area zone, Rourkela",
+  "latitude": 22.27182,
+  "longitude": 84.84346
+ },
+ {
+  "city": "Rourkela",
+  "state": "Odisha",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Rourkela - Ring Road",
+  "road_name": "Rourkela Ring Road",
+  "latitude": 22.2784,
+  "longitude": 84.82593
+ },
+ {
+  "city": "Rourkela",
+  "state": "Odisha",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Rourkela - Highway Bypass",
+  "road_name": "Rourkela Bypass (NH)",
+  "latitude": 22.24906,
+  "longitude": 84.89739
+ },
+ {
+  "city": "Sambalpur",
+  "state": "Odisha",
+  "population_m": 0.3,
+  "zone_kind": "CBD",
+  "location_name": "Sambalpur - CBD",
+  "road_name": "CBD zone, Sambalpur",
+  "latitude": 21.47477,
+  "longitude": 83.97157
+ },
+ {
+  "city": "Sambalpur",
+  "state": "Odisha",
+  "population_m": 0.3,
+  "zone_kind": "Railway Station",
+  "location_name": "Sambalpur - Railway Station",
+  "road_name": "Railway Station zone, Sambalpur",
+  "latitude": 21.4625,
+  "longitude": 83.95981
+ },
+ {
+  "city": "Sambalpur",
+  "state": "Odisha",
+  "population_m": 0.3,
+  "zone_kind": "Market Area",
+  "location_name": "Sambalpur - Market Area",
+  "road_name": "Market Area zone, Sambalpur",
+  "latitude": 21.48137,
+  "longitude": 83.97362
+ },
+ {
+  "city": "Sambalpur",
+  "state": "Odisha",
+  "population_m": 0.3,
+  "zone_kind": "Ring Road",
+  "location_name": "Sambalpur - Ring Road",
+  "road_name": "Sambalpur Ring Road",
+  "latitude": 21.46083,
+  "longitude": 83.99892
+ },
+ {
+  "city": "Sambalpur",
+  "state": "Odisha",
+  "population_m": 0.3,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Sambalpur - Highway Bypass",
+  "road_name": "Sambalpur Bypass (NH)",
+  "latitude": 21.43702,
+  "longitude": 83.97787
+ },
+ {
+  "city": "Haridwar",
+  "state": "Uttarakhand",
+  "population_m": 0.4,
+  "zone_kind": "CBD",
+  "location_name": "Haridwar - CBD",
+  "road_name": "CBD zone, Haridwar",
+  "latitude": 29.94777,
+  "longitude": 78.16636
+ },
+ {
+  "city": "Haridwar",
+  "state": "Uttarakhand",
+  "population_m": 0.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Haridwar - Railway Station",
+  "road_name": "Railway Station zone, Haridwar",
+  "latitude": 29.9389,
+  "longitude": 78.156
+ },
+ {
+  "city": "Haridwar",
+  "state": "Uttarakhand",
+  "population_m": 0.4,
+  "zone_kind": "Market Area",
+  "location_name": "Haridwar - Market Area",
+  "road_name": "Market Area zone, Haridwar",
+  "latitude": 29.94628,
+  "longitude": 78.14546
+ },
+ {
+  "city": "Haridwar",
+  "state": "Uttarakhand",
+  "population_m": 0.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Haridwar - Ring Road",
+  "road_name": "Haridwar Ring Road",
+  "latitude": 29.95883,
+  "longitude": 78.18977
+ },
+ {
+  "city": "Haridwar",
+  "state": "Uttarakhand",
+  "population_m": 0.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Haridwar - Highway Bypass",
+  "road_name": "Haridwar Bypass (NH)",
+  "latitude": 29.92312,
+  "longitude": 78.1855
+ },
+ {
+  "city": "Mathura",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Mathura - CBD",
+  "road_name": "CBD zone, Mathura",
+  "latitude": 27.48586,
+  "longitude": 77.66525
+ },
+ {
+  "city": "Mathura",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Mathura - Railway Station",
+  "road_name": "Railway Station zone, Mathura",
+  "latitude": 27.49006,
+  "longitude": 77.65617
+ },
+ {
+  "city": "Mathura",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Mathura - Market Area",
+  "road_name": "Market Area zone, Mathura",
+  "latitude": 27.47858,
+  "longitude": 77.6771
+ },
+ {
+  "city": "Mathura",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Mathura - Ring Road",
+  "road_name": "Mathura Ring Road",
+  "latitude": 27.51269,
+  "longitude": 77.69133
+ },
+ {
+  "city": "Mathura",
+  "state": "Uttar Pradesh",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Mathura - Highway Bypass",
+  "road_name": "Mathura Bypass (NH)",
+  "latitude": 27.52291,
+  "longitude": 77.65266
+ },
+ {
+  "city": "Rohtak",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Rohtak - CBD",
+  "road_name": "CBD zone, Rohtak",
+  "latitude": 28.8953,
+  "longitude": 76.60844
+ },
+ {
+  "city": "Rohtak",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Rohtak - Railway Station",
+  "road_name": "Railway Station zone, Rohtak",
+  "latitude": 28.8818,
+  "longitude": 76.6196
+ },
+ {
+  "city": "Rohtak",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Rohtak - Market Area",
+  "road_name": "Market Area zone, Rohtak",
+  "latitude": 28.88699,
+  "longitude": 76.62685
+ },
+ {
+  "city": "Rohtak",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Rohtak - Ring Road",
+  "road_name": "Rohtak Ring Road",
+  "latitude": 28.87988,
+  "longitude": 76.64325
+ },
+ {
+  "city": "Rohtak",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Rohtak - Highway Bypass",
+  "road_name": "Rohtak Bypass (NH)",
+  "latitude": 28.85745,
+  "longitude": 76.63982
+ },
+ {
+  "city": "Panipat",
+  "state": "Haryana",
+  "population_m": 0.6,
+  "zone_kind": "CBD",
+  "location_name": "Panipat - CBD",
+  "road_name": "CBD zone, Panipat",
+  "latitude": 29.38412,
+  "longitude": 76.97336
+ },
+ {
+  "city": "Panipat",
+  "state": "Haryana",
+  "population_m": 0.6,
+  "zone_kind": "Railway Station",
+  "location_name": "Panipat - Railway Station",
+  "road_name": "Railway Station zone, Panipat",
+  "latitude": 29.39034,
+  "longitude": 76.98409
+ },
+ {
+  "city": "Panipat",
+  "state": "Haryana",
+  "population_m": 0.6,
+  "zone_kind": "Market Area",
+  "location_name": "Panipat - Market Area",
+  "road_name": "Market Area zone, Panipat",
+  "latitude": 29.37989,
+  "longitude": 76.97938
+ },
+ {
+  "city": "Panipat",
+  "state": "Haryana",
+  "population_m": 0.6,
+  "zone_kind": "Ring Road",
+  "location_name": "Panipat - Ring Road",
+  "road_name": "Panipat Ring Road",
+  "latitude": 29.3629,
+  "longitude": 76.97104
+ },
+ {
+  "city": "Panipat",
+  "state": "Haryana",
+  "population_m": 0.6,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Panipat - Highway Bypass",
+  "road_name": "Panipat Bypass (NH)",
+  "latitude": 29.4186,
+  "longitude": 76.99754
+ },
+ {
+  "city": "Ambala",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Ambala - CBD",
+  "road_name": "CBD zone, Ambala",
+  "latitude": 30.38333,
+  "longitude": 76.785
+ },
+ {
+  "city": "Ambala",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Ambala - Railway Station",
+  "road_name": "Railway Station zone, Ambala",
+  "latitude": 30.39162,
+  "longitude": 76.77906
+ },
+ {
+  "city": "Ambala",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Ambala - Market Area",
+  "road_name": "Market Area zone, Ambala",
+  "latitude": 30.37019,
+  "longitude": 76.76939
+ },
+ {
+  "city": "Ambala",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Ambala - Ring Road",
+  "road_name": "Ambala Ring Road",
+  "latitude": 30.38243,
+  "longitude": 76.81791
+ },
+ {
+  "city": "Ambala",
+  "state": "Haryana",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Ambala - Highway Bypass",
+  "road_name": "Ambala Bypass (NH)",
+  "latitude": 30.34961,
+  "longitude": 76.81648
+ },
+ {
+  "city": "Bathinda",
+  "state": "Punjab",
+  "population_m": 0.4,
+  "zone_kind": "CBD",
+  "location_name": "Bathinda - CBD",
+  "road_name": "CBD zone, Bathinda",
+  "latitude": 30.20612,
+  "longitude": 74.94365
+ },
+ {
+  "city": "Bathinda",
+  "state": "Punjab",
+  "population_m": 0.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Bathinda - Railway Station",
+  "road_name": "Railway Station zone, Bathinda",
+  "latitude": 30.22341,
+  "longitude": 74.94956
+ },
+ {
+  "city": "Bathinda",
+  "state": "Punjab",
+  "population_m": 0.4,
+  "zone_kind": "Market Area",
+  "location_name": "Bathinda - Market Area",
+  "road_name": "Market Area zone, Bathinda",
+  "latitude": 30.22144,
+  "longitude": 74.96182
+ },
+ {
+  "city": "Bathinda",
+  "state": "Punjab",
+  "population_m": 0.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Bathinda - Ring Road",
+  "road_name": "Bathinda Ring Road",
+  "latitude": 30.24023,
+  "longitude": 74.95174
+ },
+ {
+  "city": "Bathinda",
+  "state": "Punjab",
+  "population_m": 0.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bathinda - Highway Bypass",
+  "road_name": "Bathinda Bypass (NH)",
+  "latitude": 30.24365,
+  "longitude": 74.94394
+ },
+ {
+  "city": "Patiala",
+  "state": "Punjab",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Patiala - CBD",
+  "road_name": "CBD zone, Patiala",
+  "latitude": 30.3445,
+  "longitude": 76.39565
+ },
+ {
+  "city": "Patiala",
+  "state": "Punjab",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Patiala - Railway Station",
+  "road_name": "Railway Station zone, Patiala",
+  "latitude": 30.32873,
+  "longitude": 76.39132
+ },
+ {
+  "city": "Patiala",
+  "state": "Punjab",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Patiala - Market Area",
+  "road_name": "Market Area zone, Patiala",
+  "latitude": 30.35099,
+  "longitude": 76.39655
+ },
+ {
+  "city": "Patiala",
+  "state": "Punjab",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Patiala - Ring Road",
+  "road_name": "Patiala Ring Road",
+  "latitude": 30.31553,
+  "longitude": 76.38144
+ },
+ {
+  "city": "Patiala",
+  "state": "Punjab",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Patiala - Highway Bypass",
+  "road_name": "Patiala Bypass (NH)",
+  "latitude": 30.30299,
+  "longitude": 76.36458
+ },
+ {
+  "city": "Thane",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "CBD",
+  "location_name": "Thane - CBD",
+  "road_name": "CBD zone, Thane",
+  "latitude": 19.22103,
+  "longitude": 72.97109
+ },
+ {
+  "city": "Thane",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Railway Station",
+  "location_name": "Thane - Railway Station",
+  "road_name": "Railway Station zone, Thane",
+  "latitude": 19.23503,
+  "longitude": 72.98051
+ },
+ {
+  "city": "Thane",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Market Area",
+  "location_name": "Thane - Market Area",
+  "road_name": "Market Area zone, Thane",
+  "latitude": 19.20287,
+  "longitude": 72.97513
+ },
+ {
+  "city": "Thane",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Ring Road",
+  "location_name": "Thane - Ring Road",
+  "road_name": "Thane Ring Road",
+  "latitude": 19.1893,
+  "longitude": 73.00634
+ },
+ {
+  "city": "Thane",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Thane - Highway Bypass",
+  "road_name": "Thane Bypass (NH)",
+  "latitude": 19.17132,
+  "longitude": 73.01546
+ },
+ {
+  "city": "Thane",
+  "state": "Maharashtra",
+  "population_m": 2.0,
+  "zone_kind": "Residential Arterial",
+  "location_name": "Thane - Residential Arterial",
+  "road_name": "Residential Arterial zone, Thane",
+  "latitude": 19.24634,
+  "longitude": 72.98079
+ },
+ {
+  "city": "Bhavnagar",
+  "state": "Gujarat",
+  "population_m": 0.7,
+  "zone_kind": "CBD",
+  "location_name": "Bhavnagar - CBD",
+  "road_name": "CBD zone, Bhavnagar",
+  "latitude": 21.75408,
+  "longitude": 72.15486
+ },
+ {
+  "city": "Bhavnagar",
+  "state": "Gujarat",
+  "population_m": 0.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Bhavnagar - Railway Station",
+  "road_name": "Railway Station zone, Bhavnagar",
+  "latitude": 21.76372,
+  "longitude": 72.1615
+ },
+ {
+  "city": "Bhavnagar",
+  "state": "Gujarat",
+  "population_m": 0.7,
+  "zone_kind": "Market Area",
+  "location_name": "Bhavnagar - Market Area",
+  "road_name": "Market Area zone, Bhavnagar",
+  "latitude": 21.7549,
+  "longitude": 72.13788
+ },
+ {
+  "city": "Bhavnagar",
+  "state": "Gujarat",
+  "population_m": 0.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Bhavnagar - Ring Road",
+  "road_name": "Bhavnagar Ring Road",
+  "latitude": 21.73238,
+  "longitude": 72.13894
+ },
+ {
+  "city": "Bhavnagar",
+  "state": "Gujarat",
+  "population_m": 0.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bhavnagar - Highway Bypass",
+  "road_name": "Bhavnagar Bypass (NH)",
+  "latitude": 21.74312,
+  "longitude": 72.10634
+ },
+ {
+  "city": "Gandhinagar",
+  "state": "Gujarat",
+  "population_m": 0.3,
+  "zone_kind": "CBD",
+  "location_name": "Gandhinagar - CBD",
+  "road_name": "CBD zone, Gandhinagar",
+  "latitude": 23.22333,
+  "longitude": 72.64529
+ },
+ {
+  "city": "Gandhinagar",
+  "state": "Gujarat",
+  "population_m": 0.3,
+  "zone_kind": "Railway Station",
+  "location_name": "Gandhinagar - Railway Station",
+  "road_name": "Railway Station zone, Gandhinagar",
+  "latitude": 23.23078,
+  "longitude": 72.64871
+ },
+ {
+  "city": "Gandhinagar",
+  "state": "Gujarat",
+  "population_m": 0.3,
+  "zone_kind": "Market Area",
+  "location_name": "Gandhinagar - Market Area",
+  "road_name": "Market Area zone, Gandhinagar",
+  "latitude": 23.21429,
+  "longitude": 72.66128
+ },
+ {
+  "city": "Gandhinagar",
+  "state": "Gujarat",
+  "population_m": 0.3,
+  "zone_kind": "Ring Road",
+  "location_name": "Gandhinagar - Ring Road",
+  "road_name": "Gandhinagar Ring Road",
+  "latitude": 23.21452,
+  "longitude": 72.61953
+ },
+ {
+  "city": "Gandhinagar",
+  "state": "Gujarat",
+  "population_m": 0.3,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Gandhinagar - Highway Bypass",
+  "road_name": "Gandhinagar Bypass (NH)",
+  "latitude": 23.18365,
+  "longitude": 72.65991
+ },
+ {
+  "city": "Kakinada",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "CBD",
+  "location_name": "Kakinada - CBD",
+  "road_name": "CBD zone, Kakinada",
+  "latitude": 16.986,
+  "longitude": 82.24562
+ },
+ {
+  "city": "Kakinada",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "Railway Station",
+  "location_name": "Kakinada - Railway Station",
+  "road_name": "Railway Station zone, Kakinada",
+  "latitude": 17.00073,
+  "longitude": 82.25751
+ },
+ {
+  "city": "Kakinada",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "Market Area",
+  "location_name": "Kakinada - Market Area",
+  "road_name": "Market Area zone, Kakinada",
+  "latitude": 16.9744,
+  "longitude": 82.24982
+ },
+ {
+  "city": "Kakinada",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "Ring Road",
+  "location_name": "Kakinada - Ring Road",
+  "road_name": "Kakinada Ring Road",
+  "latitude": 16.96001,
+  "longitude": 82.23968
+ },
+ {
+  "city": "Kakinada",
+  "state": "Andhra Pradesh",
+  "population_m": 0.5,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Kakinada - Highway Bypass",
+  "road_name": "Kakinada Bypass (NH)",
+  "latitude": 17.02323,
+  "longitude": 82.23033
+ },
+ {
+  "city": "Saharanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.7,
+  "zone_kind": "CBD",
+  "location_name": "Saharanpur - CBD",
+  "road_name": "CBD zone, Saharanpur",
+  "latitude": 29.97636,
+  "longitude": 77.54811
+ },
+ {
+  "city": "Saharanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.7,
+  "zone_kind": "Railway Station",
+  "location_name": "Saharanpur - Railway Station",
+  "road_name": "Railway Station zone, Saharanpur",
+  "latitude": 29.97048,
+  "longitude": 77.53561
+ },
+ {
+  "city": "Saharanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.7,
+  "zone_kind": "Market Area",
+  "location_name": "Saharanpur - Market Area",
+  "road_name": "Market Area zone, Saharanpur",
+  "latitude": 29.9694,
+  "longitude": 77.56869
+ },
+ {
+  "city": "Saharanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.7,
+  "zone_kind": "Ring Road",
+  "location_name": "Saharanpur - Ring Road",
+  "road_name": "Saharanpur Ring Road",
+  "latitude": 29.95904,
+  "longitude": 77.5846
+ },
+ {
+  "city": "Saharanpur",
+  "state": "Uttar Pradesh",
+  "population_m": 0.7,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Saharanpur - Highway Bypass",
+  "road_name": "Saharanpur Bypass (NH)",
+  "latitude": 29.99777,
+  "longitude": 77.59243
+ },
+ {
+  "city": "Bilaspur",
+  "state": "Chhattisgarh",
+  "population_m": 0.4,
+  "zone_kind": "CBD",
+  "location_name": "Bilaspur - CBD",
+  "road_name": "CBD zone, Bilaspur",
+  "latitude": 22.07872,
+  "longitude": 82.15607
+ },
+ {
+  "city": "Bilaspur",
+  "state": "Chhattisgarh",
+  "population_m": 0.4,
+  "zone_kind": "Railway Station",
+  "location_name": "Bilaspur - Railway Station",
+  "road_name": "Railway Station zone, Bilaspur",
+  "latitude": 22.08377,
+  "longitude": 82.16256
+ },
+ {
+  "city": "Bilaspur",
+  "state": "Chhattisgarh",
+  "population_m": 0.4,
+  "zone_kind": "Market Area",
+  "location_name": "Bilaspur - Market Area",
+  "road_name": "Market Area zone, Bilaspur",
+  "latitude": 22.08961,
+  "longitude": 82.14216
+ },
+ {
+  "city": "Bilaspur",
+  "state": "Chhattisgarh",
+  "population_m": 0.4,
+  "zone_kind": "Ring Road",
+  "location_name": "Bilaspur - Ring Road",
+  "road_name": "Bilaspur Ring Road",
+  "latitude": 22.07582,
+  "longitude": 82.17537
+ },
+ {
+  "city": "Bilaspur",
+  "state": "Chhattisgarh",
+  "population_m": 0.4,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Bilaspur - Highway Bypass",
+  "road_name": "Bilaspur Bypass (NH)",
+  "latitude": 22.08669,
+  "longitude": 82.19037
+ },
+ {
+  "city": "Dibrugarh",
+  "state": "Assam",
+  "population_m": 0.2,
+  "zone_kind": "CBD",
+  "location_name": "Dibrugarh - CBD",
+  "road_name": "CBD zone, Dibrugarh",
+  "latitude": 27.47849,
+  "longitude": 94.9164
+ },
+ {
+  "city": "Dibrugarh",
+  "state": "Assam",
+  "population_m": 0.2,
+  "zone_kind": "Railway Station",
+  "location_name": "Dibrugarh - Railway Station",
+  "road_name": "Railway Station zone, Dibrugarh",
+  "latitude": 27.48928,
+  "longitude": 94.91235
+ },
+ {
+  "city": "Dibrugarh",
+  "state": "Assam",
+  "population_m": 0.2,
+  "zone_kind": "Market Area",
+  "location_name": "Dibrugarh - Market Area",
+  "road_name": "Market Area zone, Dibrugarh",
+  "latitude": 27.47369,
+  "longitude": 94.899
+ },
+ {
+  "city": "Dibrugarh",
+  "state": "Assam",
+  "population_m": 0.2,
+  "zone_kind": "Ring Road",
+  "location_name": "Dibrugarh - Ring Road",
+  "road_name": "Dibrugarh Ring Road",
+  "latitude": 27.49051,
+  "longitude": 94.93689
+ },
+ {
+  "city": "Dibrugarh",
+  "state": "Assam",
+  "population_m": 0.2,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Dibrugarh - Highway Bypass",
+  "road_name": "Dibrugarh Bypass (NH)",
+  "latitude": 27.44398,
+  "longitude": 94.90911
+ },
+ {
+  "city": "Leh",
+  "state": "Ladakh",
+  "population_m": 0.05,
+  "zone_kind": "CBD",
+  "location_name": "Leh - CBD",
+  "road_name": "CBD zone, Leh",
+  "latitude": 34.14901,
+  "longitude": 77.58531
+ },
+ {
+  "city": "Leh",
+  "state": "Ladakh",
+  "population_m": 0.05,
+  "zone_kind": "Railway Station",
+  "location_name": "Leh - Railway Station",
+  "road_name": "Railway Station zone, Leh",
+  "latitude": 34.1477,
+  "longitude": 77.56798
+ },
+ {
+  "city": "Leh",
+  "state": "Ladakh",
+  "population_m": 0.05,
+  "zone_kind": "Market Area",
+  "location_name": "Leh - Market Area",
+  "road_name": "Market Area zone, Leh",
+  "latitude": 34.14194,
+  "longitude": 77.58957
+ },
+ {
+  "city": "Leh",
+  "state": "Ladakh",
+  "population_m": 0.05,
+  "zone_kind": "Ring Road",
+  "location_name": "Leh - Ring Road",
+  "road_name": "Leh Ring Road",
+  "latitude": 34.15698,
+  "longitude": 77.55875
+ },
+ {
+  "city": "Leh",
+  "state": "Ladakh",
+  "population_m": 0.05,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Leh - Highway Bypass",
+  "road_name": "Leh Bypass (NH)",
+  "latitude": 34.14662,
+  "longitude": 77.61349
+ },
+ {
+  "city": "Silvassa",
+  "state": "Dadra and Nagar Haveli and Daman and Diu",
+  "population_m": 0.1,
+  "zone_kind": "CBD",
+  "location_name": "Silvassa - CBD",
+  "road_name": "CBD zone, Silvassa",
+  "latitude": 20.26584,
+  "longitude": 73.00792
+ },
+ {
+  "city": "Silvassa",
+  "state": "Dadra and Nagar Haveli and Daman and Diu",
+  "population_m": 0.1,
+  "zone_kind": "Railway Station",
+  "location_name": "Silvassa - Railway Station",
+  "road_name": "Railway Station zone, Silvassa",
+  "latitude": 20.26285,
+  "longitude": 73.01922
+ },
+ {
+  "city": "Silvassa",
+  "state": "Dadra and Nagar Haveli and Daman and Diu",
+  "population_m": 0.1,
+  "zone_kind": "Market Area",
+  "location_name": "Silvassa - Market Area",
+  "road_name": "Market Area zone, Silvassa",
+  "latitude": 20.25978,
+  "longitude": 73.0116
+ },
+ {
+  "city": "Silvassa",
+  "state": "Dadra and Nagar Haveli and Daman and Diu",
+  "population_m": 0.1,
+  "zone_kind": "Ring Road",
+  "location_name": "Silvassa - Ring Road",
+  "road_name": "Silvassa Ring Road",
+  "latitude": 20.27679,
+  "longitude": 72.98558
+ },
+ {
+  "city": "Silvassa",
+  "state": "Dadra and Nagar Haveli and Daman and Diu",
+  "population_m": 0.1,
+  "zone_kind": "Highway Bypass",
+  "location_name": "Silvassa - Highway Bypass",
+  "road_name": "Silvassa Bypass (NH)",
+  "latitude": 20.29658,
+  "longitude": 72.99437
+ }
+]
