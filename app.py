@@ -7,6 +7,21 @@ Dev:  python app.py  +  cd frontend && npm run dev   (Vite proxies /api to :8000
 """
 import os
 import sys
+
+# The pinned scientific packages (numpy 2.2 / pandas 2.3 / scikit-learn 1.7) are built and tested on Python 3.13.
+# On 3.14 they have no prebuilt wheels and the server segfaulted on Render (exit status 139), so fail early and
+# clearly instead. Set ALLOW_UNSUPPORTED_PYTHON=1 to bypass if you have upgraded the pins yourself.
+if sys.version_info >= (3, 14) and not os.environ.get("ALLOW_UNSUPPORTED_PYTHON"):
+    raise SystemExit(
+        f"Unsupported Python {sys.version.split()[0]}: this project's pinned packages need Python 3.13 "
+        "(see .python-version). On Render set PYTHON_VERSION=3.13.4.")
+
+# Serving only runs small vectorised predictions, so extra BLAS/OpenMP threads just add memory use and contention on
+# small hosts (e.g. fractional-CPU free tiers). Must be set before numpy/scikit-learn are imported. Training
+# (setup.py) does not import this module and still uses every core.
+for _var in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS"):
+    os.environ.setdefault(_var, "1")
+
 from datetime import date as date_cls, datetime
 from typing import Any, Optional
 

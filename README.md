@@ -606,8 +606,23 @@ model and the pinned dependencies are all in the repo, so Render needs no Node b
 3. Render reads `render.yaml` and asks for **`TOMTOM_API_KEY`**. Paste your key (or leave it empty to run on ML estimates only). Click **Apply**.
 4. Wait for the build (a few minutes). Your site is at `https://saarthi-….onrender.com`; `/healthz` should return `{"status":"ok",…}`.
 
-The service runs `uvicorn app:app --host 0.0.0.0 --port $PORT` with `OMP_NUM_THREADS=1` and Python 3.13.4. HTTPS is provided by
+The service runs `uvicorn app:app --host 0.0.0.0 --port $PORT --no-access-log` on **Python 3.13.4** (pinned by the `.python-version`
+file, which Render honours for every kind of service). HTTPS is provided by
 Render, which also makes the browser's "use my location" work.
+
+**If you create the service by hand instead of using the Blueprint** (New → Web Service), `render.yaml` is *not* applied. Use:
+
+| Setting | Value |
+|---|---|
+| Runtime | Python 3 |
+| Build command | `pip install -r requirements.txt` |
+| Start command | `uvicorn app:app --host 0.0.0.0 --port $PORT --no-access-log` |
+| Health check path | `/healthz` |
+| Environment | `TOMTOM_API_KEY` (optional). `PYTHON_VERSION=3.13.4` is optional — `.python-version` already pins it. |
+
+> **Do not let Render pick its default Python.** It currently defaults to a newer release (3.14) for which the pinned
+> `numpy`/`pandas` have no prebuilt wheels: the build compiles them from source (12+ minutes) and the server then
+> crashes with `Exited with status 139` (a segmentation fault). `app.py` now refuses to start on Python 3.14+ with a clear message.
 
 **What to expect on the free plan**
 
@@ -639,6 +654,7 @@ estimates until midnight IST. Check your numbers against your TomTom plan. The A
 | Location prompt never appears / is denied | Browsers allow geolocation only on `localhost` or HTTPS. The app falls back to the all-India view. |
 | Warning or error loading `traffic_model.joblib` | scikit-learn version differs from the pinned 1.7.2 (the model is a pickle). Install the pinned versions, or retrain with `python setup.py`. |
 | Render site very slow on first visit | Free-plan cold start (see *Deploying to Render*). Wait up to a minute, or keep it warm with an uptime monitor pinging `/healthz`. |
+| Render log: `Exited with status 139` (segfault) or `Using Python version 3.14` | The service is running an unsupported Python. Make sure `.python-version` (3.13.4) is in the repo, or set `PYTHON_VERSION=3.13.4`, then **Manual Deploy → Clear build cache & deploy**. |
 | Old page after an update | Hard refresh (Ctrl+F5) so the browser loads the new build. |
 | TomTom suddenly stops updating | The daily budget may be spent — see `/healthz` → `live.used_today`. It resets at midnight IST. |
 | Logs show `weather request failed … HTTP 429` / weather shows "unavailable" | Open-Meteo is rate-limiting your host's IP (typical on free shared cloud hosting). It is a warning, not a crash: the app keeps serving with dry-weather fallback, retries automatically with backoff, and fills in as soon as it is allowed. Check `/healthz` → `weather` (`cities` of `of`, `last_error`). |
