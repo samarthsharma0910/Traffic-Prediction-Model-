@@ -11,7 +11,7 @@ speeds replace the estimate for the zones you look at.
 | **Frontend** | React 18 · Vite · Recharts · Leaflet |
 | **Data** | Open-Meteo (weather, free), TomTom (optional live traffic), Natural Earth (coastlines), `holidays` (Indian public holidays) |
 | **Model** | 3 gradient-boosted regressors · MAE 3.47 on a 0–100 score · 90.6 % level accuracy on a held-out month |
-| **Size** | ≈ 3,200 lines of code · 21 automated backend tests |
+| **Size** | ≈ 3,200 lines of code · 22 automated backend tests |
 
 > **Read this first — what is real and what is not.**
 > Without a TomTom key there is **no real-time traffic**: "live" means the model evaluated at the current
@@ -165,10 +165,11 @@ DBMS/
 ├── models/                 traffic_model.joblib (trained bundle) · metrics.json
 ├── TrafficManagementDB.sqlite  Created automatically on first run (git-ignored: it also holds local readings)
 ├── sql/01_create_tables.sql  The original MySQL schema this project grew out of
-├── tests/test_app.py       21 backend tests
+├── tests/test_app.py       22 backend tests
 ├── requirements.txt        Pinned runtime dependencies
 ├── requirements-dev.txt    Test + zone-generation extras (httpx, shapely)
 ├── .env.example            Template for .env (copy it; add your TomTom key)
+├── render.yaml             Render Blueprint (free web service)
 ├── .env                    Local secrets (git-ignored) — TOMTOM_API_KEY
 └── frontend/
     ├── index.html · vite.config.js · package.json
@@ -414,7 +415,7 @@ Enabled when `TOMTOM_API_KEY` is set (in `.env` or the environment). Two separat
   so **the key is never sent to the browser**.
 
 **Quota protection:** non-tile calls are capped at `TOMTOM_DAILY_BUDGET` (default 2,200 of the free 2,500/day).
-Once spent, the app silently falls back to ML estimates until midnight IST. Usage is visible in `/healthz`
+Once spent, the app silently falls back to ML estimates until midnight IST. The tile proxy has its own daily cap (`TOMTOM_TILE_DAILY_BUDGET`, default 20,000 upstream fetches). Usage is visible in `/healthz`
 and `/api/overview` under `live`.
 
 **Why only some zones are measured:** ~10 calls per city × 118 cities would exceed the free quota quickly, so
@@ -519,7 +520,7 @@ first cold city page ≈ 0.2 s.
 
 ## 13. Testing
 
-`python tests/test_app.py` — **21 tests** using FastAPI's `TestClient`. They set `TRAFFIC_DISABLE_WEATHER=1` and
+`python tests/test_app.py` — **22 tests** using FastAPI's `TestClient`. They set `TRAFFIC_DISABLE_WEATHER=1` and
 `TRAFFIC_DISABLE_LIVE=1`, so they never touch the network or spend TomTom quota.
 
 | Area | What is checked |
@@ -532,7 +533,7 @@ first cold city page ≈ 0.2 s.
 | Validation | Missing city, bad datetime, timezone suffix, out-of-range year, bad weather, non-numeric / foreign zone id, non-object JSON body, bad date, bad lat/lon |
 | Endpoints | POST predict, city detail + zone detail shape, rush table, nearest zone (Delhi) and "no zone within 60 km" |
 | Rush logic | Double-peak day → two windows; flat or quiet day → none |
-| Shipping | Security headers present; API title is Saarthi; database seeding is idempotent (664 zones, no duplicates) |
+| Shipping | Security headers present; API title is Saarthi; database seeding is idempotent (664 zones, no duplicates); the TomTom tile proxy honours its daily cap, caches repeats and rejects out-of-range tiles (network mocked) |
 
 Frontend interactions were additionally exercised in a real headless browser during development; there is no
 automated frontend test suite yet (see [Roadmap](#18-roadmap)).
@@ -547,6 +548,7 @@ Environment variables (a `.env` file next to `app.py` is read automatically; rea
 |---|---|---|
 | `TOMTOM_API_KEY` | *(unset)* | Enables measured speeds and the live traffic layer |
 | `TOMTOM_DAILY_BUDGET` | `2200` | Max non-tile TomTom calls per IST day |
+| `TOMTOM_TILE_DAILY_BUDGET` | `20000` | Max upstream live-tile fetches per IST day (cached tiles are free) |
 | `PORT` | `8000` | Server port |
 | `HOST` | `127.0.0.1` | Bind address (use `0.0.0.0` to serve other devices on your network) |
 | `TRAFFIC_DISABLE_LIVE` | *(unset)* | `1` disables TomTom even if a key exists (used by tests) |
@@ -593,6 +595,35 @@ npm run build              # rebuilds frontend/dist, which FastAPI serves
 **Changing the zones:** edit `cities.py`, run `python -I tools/generate_zones.py <path-to-ne_10m_land.geojson>`
 (needs `pip install shapely`; the file is Natural Earth's `ne_10m_land.geojson`), then `python setup.py` to reseed and retrain.
 
+### Deploying to Render (free tier)
+
+The repository contains a Render Blueprint (`render.yaml`), so deployment is a few clicks. The built frontend, the trained
+model and the pinned dependencies are all in the repo, so Render needs no Node build and no training step.
+
+1. **Push the repo to GitHub** (`git push`).
+2. In the [Render dashboard](https://dashboard.render.com): **New → Blueprint**, connect GitHub, choose this repository.
+3. Render reads `render.yaml` and asks for **`TOMTOM_API_KEY`**. Paste your key (or leave it empty to run on ML estimates only). Click **Apply**.
+4. Wait for the build (a few minutes). Your site is at `https://saarthi-….onrender.com`; `/healthz` should return `{"status":"ok",…}`.
+
+The service runs `uvicorn app:app --host 0.0.0.0 --port $PORT` with `OMP_NUM_THREADS=1` and Python 3.13.4. HTTPS is provided by
+Render, which also makes the browser's "use my location" work.
+
+**What to expect on the free plan**
+
+| Limit | Effect |
+|---|---|
+| Spins down after ~15 min without traffic | The next visit waits ~30–60 s for a cold start (the app loads the model, then computes its first national forecast). To avoid it, ping `/healthz` every ~10 min from a free uptime monitor — one always-on service fits in the 750 free hours per month. |
+| 512 MB RAM, fraction of a CPU | The app uses ≈ 210 MB. Forecasts are noticeably slower than on a laptop; the first page after a cold start can take tens of seconds. |
+| Ephemeral disk | The SQLite file is recreated on every start, so logged TomTom readings are not kept between restarts. Nothing else depends on it. |
+
+**Public-site cautions:** anyone can reach the site, so the TomTom caps matter — `TOMTOM_DAILY_BUDGET` (default 2,200 data calls/day)
+and `TOMTOM_TILE_DAILY_BUDGET` (default 20,000 upstream tile fetches/day). When a cap is reached the app falls back to ML
+estimates until midnight IST. Check your numbers against your TomTom plan. The API key lives only in Render's environment settings.
+
+> The deployment files were verified by running the exact start command locally on Windows. A run on Linux (Render's OS) was
+> not possible in the development environment; the pinned package versions provide Linux wheels, so it is expected to work,
+> and `/healthz` plus the Render logs will show immediately if it does not.
+
 ---
 
 ## 16. Troubleshooting
@@ -606,6 +637,7 @@ npm run build              # rebuilds frontend/dist, which FastAPI serves
 | Live layer invisible | TomTom flow tiles show road colouring only when zoomed in; zoom to a city. |
 | Location prompt never appears / is denied | Browsers allow geolocation only on `localhost` or HTTPS. The app falls back to the all-India view. |
 | Warning or error loading `traffic_model.joblib` | scikit-learn version differs from the pinned 1.7.2 (the model is a pickle). Install the pinned versions, or retrain with `python setup.py`. |
+| Render site very slow on first visit | Free-plan cold start (see *Deploying to Render*). Wait up to a minute, or keep it warm with an uptime monitor pinging `/healthz`. |
 | Old page after an update | Hard refresh (Ctrl+F5) so the browser loads the new build. |
 | TomTom suddenly stops updating | The daily budget may be spent — see `/healthz` → `live.used_today`. It resets at midnight IST. |
 | Weather shows "unavailable" | Open-Meteo unreachable; the app assumes dry weather until it recovers. |

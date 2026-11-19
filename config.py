@@ -31,6 +31,9 @@ IST = timezone(timedelta(hours=5, minutes=30))
 TOMTOM_API_KEY = "" if os.environ.get("TRAFFIC_DISABLE_LIVE") else os.environ.get("TOMTOM_API_KEY", "").strip()
 # TomTom's free tier is 2,500 non-tile requests/day; stay safely under it.
 TOMTOM_DAILY_BUDGET = int(os.environ.get("TOMTOM_DAILY_BUDGET", "2200"))
+# Map-tile requests are counted separately by TomTom. Cap upstream tile fetches too, so a public
+# deployment can't be made to burn the quota by scrolling or scripting the tile proxy.
+TOMTOM_TILE_DAILY_BUDGET = int(os.environ.get("TOMTOM_TILE_DAILY_BUDGET", "20000"))
 
 # Congestion score (0-100) -> level. Single source of truth for UI, API and training.
 LEVELS = ["Low", "Moderate", "Heavy", "Severe"]

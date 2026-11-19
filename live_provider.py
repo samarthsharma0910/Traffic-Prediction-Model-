@@ -17,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 import requests
 
-from config import TOMTOM_API_KEY, TOMTOM_DAILY_BUDGET, level_for, now_ist
+from config import TOMTOM_API_KEY, TOMTOM_DAILY_BUDGET, TOMTOM_TILE_DAILY_BUDGET, level_for, now_ist
 from database import get_connection
 
 FLOW_URL = "https://api.tomtom.com/traffic/services/4/flowSegmentData/absolute/10/json"
@@ -30,6 +30,7 @@ _cache = {}        # location_id -> (fetched_at, record)
 _tile_cache = {}   # (z, x, y) -> (fetched_at, bytes)
 _lock = threading.Lock()
 _budget = {"day": None, "used": 0}
+_tile_budget = {"day": None, "used": 0}
 _version = [0]     # bumps whenever fresh live data is cached (invalidates the overview cache)
 
 
@@ -37,16 +38,24 @@ def enabled():
     return bool(TOMTOM_API_KEY)
 
 
-def _spend(n=1):
-    """Reserve n requests from today's budget; False when exhausted."""
+def _take(counter, limit, n=1):
+    """Reserve n requests from a per-IST-day counter; False when the limit would be exceeded."""
     today = now_ist().date()
     with _lock:
-        if _budget["day"] != today:
-            _budget["day"], _budget["used"] = today, 0
-        if _budget["used"] + n > TOMTOM_DAILY_BUDGET:
+        if counter["day"] != today:
+            counter["day"], counter["used"] = today, 0
+        if counter["used"] + n > limit:
             return False
-        _budget["used"] += n
+        counter["used"] += n
         return True
+
+
+def _spend(n=1):
+    return _take(_budget, TOMTOM_DAILY_BUDGET, n)
+
+
+def _spend_tile():
+    return _take(_tile_budget, TOMTOM_TILE_DAILY_BUDGET)
 
 
 def version():
@@ -56,8 +65,10 @@ def version():
 def status():
     today = now_ist().date()
     used = _budget["used"] if _budget["day"] == today else 0
+    tiles = _tile_budget["used"] if _tile_budget["day"] == today else 0
     return {"enabled": enabled(), "used_today": used, "daily_budget": TOMTOM_DAILY_BUDGET,
-            "exhausted": enabled() and used >= TOMTOM_DAILY_BUDGET}
+            "exhausted": enabled() and used >= TOMTOM_DAILY_BUDGET,
+            "tiles_used_today": tiles, "tile_budget": TOMTOM_TILE_DAILY_BUDGET}
 
 
 def speed_ratio_to_score(current, free_flow):
@@ -127,6 +138,8 @@ def fetch_tile(z, x, y):
     hit = _tile_cache.get(key)
     if hit and time.time() - hit[0] < TILE_CACHE_SECONDS:
         return hit[1]
+    if not _spend_tile():
+        return None
     try:
         r = requests.get(TILE_URL.format(z=z, x=x, y=y), params={"key": TOMTOM_API_KEY}, timeout=5)
         if r.status_code != 200:

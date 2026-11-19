@@ -136,6 +136,30 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(len(load_zones()), before)
         self.assertEqual(before, 664)
 
+    def test_tile_proxy_respects_daily_cap_and_cache(self):
+        import live_provider as lp
+        from unittest import mock
+
+        class Resp:
+            status_code, content = 200, b"PNG-fake"
+
+        saved = (lp.TOMTOM_API_KEY, lp.TOMTOM_TILE_DAILY_BUDGET, dict(lp._tile_budget), dict(lp._tile_cache))
+        lp.TOMTOM_API_KEY, lp.TOMTOM_TILE_DAILY_BUDGET = "test-key", 2
+        lp._tile_budget.update(day=None, used=0)
+        lp._tile_cache.clear()
+        try:
+            with mock.patch.object(lp.requests, "get", return_value=Resp()) as get:
+                self.assertIsNotNone(lp.fetch_tile(10, 1, 1))
+                self.assertIsNotNone(lp.fetch_tile(10, 1, 1))   # cached: no second upstream call
+                self.assertIsNotNone(lp.fetch_tile(10, 2, 2))
+                self.assertIsNone(lp.fetch_tile(10, 3, 3))      # cap of 2 upstream fetches reached
+                self.assertEqual(get.call_count, 2)
+                self.assertIsNone(lp.fetch_tile(99, 0, 0))      # out-of-range tile never fetched
+        finally:
+            lp.TOMTOM_API_KEY, lp.TOMTOM_TILE_DAILY_BUDGET = saved[0], saved[1]
+            lp._tile_budget.clear(); lp._tile_budget.update(saved[2])
+            lp._tile_cache.clear(); lp._tile_cache.update(saved[3])
+
     @staticmethod
     def _zone(city, kind):
         return next(z["location_id"] for z in service.zones if z["city"] == city and z["zone_kind"] == kind)

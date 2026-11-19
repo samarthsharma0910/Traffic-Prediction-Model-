@@ -1,0 +1,20 @@
+# Render Blueprint: deploys Saarthi as one free web service (API + the prebuilt React app).
+# Dashboard -> New -> Blueprint -> pick this repo. Render will ask for TOMTOM_API_KEY (optional).
+services:
+  - type: web
+    name: saarthi
+    runtime: python
+    plan: free
+    region: singapore            # closest Render region to India
+    branch: main
+    autoDeploy: true             # redeploy on every push to main
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT --no-access-log
+    healthCheckPath: /healthz    # answers instantly, without running the model
+    envVars:
+      - key: PYTHON_VERSION      # the model and pinned packages were built and tested on 3.13
+        value: 3.13.4
+      - key: OMP_NUM_THREADS     # the free instance has a fraction of one CPU; avoid thread thrashing
+        value: "1"
+      - key: TOMTOM_API_KEY      # set in the Render dashboard, never in git. Leave empty for ML estimates only.
+        sync: false
