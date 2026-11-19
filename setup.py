@@ -15,7 +15,7 @@ def main():
     print(f"      {n} zones in Location table")
     print("[3/3] Training ML model (this takes a few minutes)...")
     train(load_zones())
-    print("\nDone. Start the app with:  python app.py   ->  http://127.0.0.1:5000")
+    print("\nDone. Start the app with:  python app.py   ->  http://127.0.0.1:8000")
 
 
 if __name__ == "__main__":

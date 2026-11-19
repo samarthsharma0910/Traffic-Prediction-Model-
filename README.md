@@ -231,7 +231,7 @@ setup.py
 ```
 
 You do **not** need this on a fresh checkout: `models/traffic_model.joblib` is included and `app.py` creates the database itself.
-Training takes about 9 minutes on an 8-core machine. Re-run `python setup.py` whenever zones change (zone
+Training takes roughly 5–10 minutes depending on the CPU (8 cores). Re-run `python setup.py` whenever zones change (zone
 coordinates are model inputs, so the model must be retrained to match).
 
 ### 6.2 Server start (`python app.py`)
@@ -577,7 +577,7 @@ python app.py               # http://127.0.0.1:8000   (API docs at /docs)
 pip install -r requirements-dev.txt
 python tests/test_app.py
 
-# only if you change zones, upgrade scikit-learn, or want to retrain (~9 min)
+# only if you change zones, upgrade scikit-learn, or want to retrain (about 5-10 min)
 python setup.py
 ```
 
