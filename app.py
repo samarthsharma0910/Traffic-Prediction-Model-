@@ -204,6 +204,7 @@ def api_model_info():
 @app.get("/healthz")
 def healthz():
     return {"status": "ok", "zones": len(service.zones), "weather_live": service.weather.available,
+            "weather": service.weather.status(),
             "live_provider": "tomtom" if live_provider.enabled() else "none (ML-estimated)",
             "live": live_provider.status()}
 

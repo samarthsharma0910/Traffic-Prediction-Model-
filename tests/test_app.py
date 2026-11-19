@@ -160,6 +160,76 @@ class ApiTests(unittest.TestCase):
             lp._tile_budget.clear(); lp._tile_budget.update(saved[2])
             lp._tile_cache.clear(); lp._tile_cache.update(saved[3])
 
+    # ---- weather resilience (Open-Meteo rate limiting is common on shared cloud hosts) ----
+    @staticmethod
+    def _fake_weather_payload(chunk):
+        times = ["2026-11-19T%02d:00" % h for h in range(24)]
+        return [{"hourly": {"time": times, "precipitation": [1.5] * 24},
+                 "current": {"temperature_2m": 25.0, "precipitation": 0.0}} for _ in chunk]
+
+    def test_weather_partial_failure_keeps_good_batches_and_retries_only_missing(self):
+        import weather as w
+        from unittest import mock
+        cities = [(f"C{i}", 20.0 + i * 0.01, 77.0) for i in range(45)]      # 2 batches: 40 + 5
+        svc = w.WeatherService(cities)
+        calls = []
+
+        def flaky(chunk):
+            calls.append(len(chunk))
+            if len(calls) == 2:                                              # the second batch is rate limited
+                raise RuntimeError("429")
+            return self._fake_weather_payload(chunk)
+
+        with mock.patch.object(w.time, "sleep"), mock.patch.object(svc, "_fetch", side_effect=flaky):
+            failed = svc.refresh()
+            self.assertEqual(failed, [f"C{i}" for i in range(40, 45)])
+            self.assertTrue(svc.available)
+            self.assertEqual(svc.status()["cities"], 40)
+            self.assertEqual(svc.precip("C0", __import__("datetime").datetime(2026, 11, 19, 5)), (1.5, True))
+            self.assertEqual(svc.precip("C44", __import__("datetime").datetime(2026, 11, 19, 5)), (0.0, False))
+            before = svc.version
+            todo = [c for c in cities if c[0] in set(failed)]
+            self.assertEqual(svc.refresh(todo), [])                          # retry fetches ONLY the 5 missing
+            self.assertEqual(calls[-1], 5)
+            self.assertEqual(svc.status()["cities"], 45)
+            self.assertGreater(svc.version, before)
+            self.assertIsNone(svc.status()["last_error"])
+
+    def test_weather_failure_never_raises_and_old_data_survives(self):
+        import weather as w
+        from unittest import mock
+        svc = w.WeatherService([("A", 20.0, 77.0)])
+        with mock.patch.object(svc, "_fetch", return_value=self._fake_weather_payload([1])):
+            svc.refresh()
+        with mock.patch.object(svc, "_fetch", side_effect=RuntimeError("boom")):
+            self.assertEqual(svc.refresh(), ["A"])
+        self.assertTrue(svc.available)                                       # earlier data is kept
+        self.assertIn("boom", svc.status()["last_error"])
+
+    def test_weather_error_text_and_backoff(self):
+        import requests
+        import weather as w
+
+        class Resp:
+            status_code = 429
+            headers = {"Retry-After": "42"}
+
+            @staticmethod
+            def json():
+                return {"reason": "Hourly API request limit exceeded"}
+
+        err = requests.HTTPError("429", response=Resp())
+        text = w.describe_error(err)
+        self.assertIn("429", text)
+        self.assertIn("Hourly API request limit exceeded", text)
+        self.assertEqual(w.retry_after_seconds(err), 42)
+        waits = [w.next_wait(n) for n in range(8)]
+        self.assertEqual(waits[0], 60)
+        self.assertEqual(waits, sorted(waits))                               # never shrinks
+        self.assertEqual(max(waits), w.MAX_WAIT)                             # and is capped
+        self.assertEqual(w.next_wait(0, retry_after=300), 300)               # honours Retry-After
+        self.assertEqual(w.next_wait(0, retry_after=99999), w.MAX_WAIT)
+
     @staticmethod
     def _zone(city, kind):
         return next(z["location_id"] for z in service.zones if z["city"] == city and z["zone_kind"] == kind)

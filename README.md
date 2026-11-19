@@ -11,7 +11,7 @@ speeds replace the estimate for the zones you look at.
 | **Frontend** | React 18 · Vite · Recharts · Leaflet |
 | **Data** | Open-Meteo (weather, free), TomTom (optional live traffic), Natural Earth (coastlines), `holidays` (Indian public holidays) |
 | **Model** | 3 gradient-boosted regressors · MAE 3.47 on a 0–100 score · 90.6 % level accuracy on a held-out month |
-| **Size** | ≈ 3,200 lines of code · 22 automated backend tests |
+| **Size** | ≈ 3,200 lines of code · 25 automated backend tests |
 
 > **Read this first — what is real and what is not.**
 > Without a TomTom key there is **no real-time traffic**: "live" means the model evaluated at the current
@@ -132,7 +132,7 @@ speeds replace the estimate for the zones you look at.
         ▼                            │ SQLite  TrafficManagementDB  │   Location (664 zones)
 ┌─────────────────────────┐          │  · Location                  │   traffic_reading (live log)
 │ weather.py              │          │  · traffic_reading           │
-│ background thread, 30 m │          │  · original schema tables    │
+│ background thread, 1 h  │          │  · original schema tables    │
 │ Open-Meteo (batched)    │          └──────────────────────────────┘
 └─────────────────────────┘
         ▲
@@ -165,7 +165,7 @@ DBMS/
 ├── models/                 traffic_model.joblib (trained bundle) · metrics.json
 ├── TrafficManagementDB.sqlite  Created automatically on first run (git-ignored: it also holds local readings)
 ├── sql/01_create_tables.sql  The original MySQL schema this project grew out of
-├── tests/test_app.py       22 backend tests
+├── tests/test_app.py       25 backend tests
 ├── requirements.txt        Pinned runtime dependencies
 ├── requirements-dev.txt    Test + zone-generation extras (httpx, shapely)
 ├── .env.example            Template for .env (copy it; add your TomTom key)
@@ -443,7 +443,7 @@ Base URL `http://127.0.0.1:8000`. Interactive docs: `/docs`. All errors are `{"e
 | `POST /api/live/refresh` | Fetch measured TomTom speeds for one city (no-op without a key) | body `{"city": "Delhi"}` |
 | `GET /api/tiles/flow/{z}/{x}/{y}.png` | Proxied live traffic tile | tile coordinates |
 | `GET /api/model-info` | Training/evaluation metrics | — |
-| `GET /healthz` | Status, zone count, weather and live-provider state, TomTom budget used | — |
+| `GET /healthz` | Status, zone count, weather state (`weather`: cities loaded, last success, last error), live-provider state, TomTom budgets used | — |
 
 Example:
 
@@ -494,7 +494,7 @@ bordered panels and uppercase-header tables. Responsive layout (checked down to 
 | Overview payload | Cached per `(minute, weather version, live-data version)` | Repeated polls ≈ 10 ms |
 | Typical-week grids | Cached per `(zones, 7 reference dates)` | City pages after the first are instant |
 | Warm-up | After every weather refresh the service precomputes today's overview | The first visitor isn't slow |
-| Weather | Background thread, one batched call per 40 cities, every 30 min | No request ever waits on Open-Meteo |
+| Weather | Background thread; one batched call per 40 cities, 2 s apart, hourly; batches succeed or fail independently; failures retry only the missing cities with backoff (1 → 15 min, honouring `Retry-After`) | No request ever waits on Open-Meteo, and a rate limit (HTTP 429, common on shared cloud hosts) heals itself |
 | Payload size | Overview zones carry only the fields the map needs; GZip for responses ≥ 1 KB | ≈ 20 KB over the wire |
 | TomTom | 5-min reading cache, 60-s tile cache, 8-way parallel fetch, daily budget | Quota-safe |
 
@@ -508,7 +508,7 @@ first cold city page ≈ 0.2 s.
 * **Secrets** — the TomTom key lives only in `.env` (git-ignored) and is never returned to the browser; tiles are proxied.
 * **Input validation** — every query/body field is validated; invalid input never reaches the model; errors use one JSON shape.
 * **Path safety** — the SPA fallback resolves paths and refuses anything outside `frontend/dist` (a test covers `..` traversal).
-* **Graceful degradation** — Open-Meteo down → last good data, or dry weather with the UI told so; TomTom down or
+* **Graceful degradation** — Open-Meteo down or rate-limited → last good data per city, or dry weather with the UI told so (the reason is shown in `/healthz` → `weather.last_error`); TomTom down or
   budget spent → ML estimates; frontend not built → a clear 503 page pointing to `npm run build`.
 * **Response headers** — `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY` and a strict `Referrer-Policy` on every response.
 * **Threading** — the weather thread never dies on errors; cache computation is lock-protected.
@@ -520,7 +520,7 @@ first cold city page ≈ 0.2 s.
 
 ## 13. Testing
 
-`python tests/test_app.py` — **22 tests** using FastAPI's `TestClient`. They set `TRAFFIC_DISABLE_WEATHER=1` and
+`python tests/test_app.py` — **25 tests** using FastAPI's `TestClient`. They set `TRAFFIC_DISABLE_WEATHER=1` and
 `TRAFFIC_DISABLE_LIVE=1`, so they never touch the network or spend TomTom quota.
 
 | Area | What is checked |
@@ -533,6 +533,7 @@ first cold city page ≈ 0.2 s.
 | Validation | Missing city, bad datetime, timezone suffix, out-of-range year, bad weather, non-numeric / foreign zone id, non-object JSON body, bad date, bad lat/lon |
 | Endpoints | POST predict, city detail + zone detail shape, rush table, nearest zone (Delhi) and "no zone within 60 km" |
 | Rush logic | Double-peak day → two windows; flat or quiet day → none |
+| Weather resilience | A rate-limited batch keeps the good batches and retries only the missing cities; earlier data survives a failed refresh; error text includes Open-Meteo's reason and `Retry-After`; backoff grows and is capped (network mocked) |
 | Shipping | Security headers present; API title is Saarthi; database seeding is idempotent (664 zones, no duplicates); the TomTom tile proxy honours its daily cap, caches repeats and rejects out-of-range tiles (network mocked) |
 
 Frontend interactions were additionally exercised in a real headless browser during development; there is no
@@ -640,7 +641,7 @@ estimates until midnight IST. Check your numbers against your TomTom plan. The A
 | Render site very slow on first visit | Free-plan cold start (see *Deploying to Render*). Wait up to a minute, or keep it warm with an uptime monitor pinging `/healthz`. |
 | Old page after an update | Hard refresh (Ctrl+F5) so the browser loads the new build. |
 | TomTom suddenly stops updating | The daily budget may be spent — see `/healthz` → `live.used_today`. It resets at midnight IST. |
-| Weather shows "unavailable" | Open-Meteo unreachable; the app assumes dry weather until it recovers. |
+| Logs show `weather request failed … HTTP 429` / weather shows "unavailable" | Open-Meteo is rate-limiting your host's IP (typical on free shared cloud hosting). It is a warning, not a crash: the app keeps serving with dry-weather fallback, retries automatically with backoff, and fills in as soon as it is allowed. Check `/healthz` → `weather` (`cities` of `of`, `last_error`). |
 
 ---
 
