@@ -1,0 +1,4 @@
+# Extra tools for testing and for regenerating zones. Install with: pip install -r requirements-dev.txt
+-r requirements.txt
+httpx==0.28.1     # FastAPI TestClient (tests/test_app.py)
+shapely==2.1.2    # tools/generate_zones.py (land check)

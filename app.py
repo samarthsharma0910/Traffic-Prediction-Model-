@@ -20,13 +20,25 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import live_provider
 from config import BASE_DIR, now_ist
+from database import ensure_seeded
 from service import MAX_DATE, MIN_DATE, TrafficService
 
 DIST = os.path.join(BASE_DIR, "frontend", "dist")
 
-app = FastAPI(title="Traffic Management India", version="2.0")
+app = FastAPI(title="Saarthi - Traffic Intelligence India", version="2.0")
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
+
+@app.middleware("http")
+async def security_headers(request, call_next):
+    resp = await call_next(request)
+    resp.headers.setdefault("X-Content-Type-Options", "nosniff")
+    resp.headers.setdefault("X-Frame-Options", "DENY")
+    resp.headers.setdefault("Referrer-Policy", "strict-origin-when-cross-origin")
+    return resp
+
+
+ensure_seeded()
 service = TrafficService()
 if not os.environ.get("TRAFFIC_DISABLE_WEATHER"):
     service.start()  # background weather refresh; never blocks requests
@@ -220,6 +232,7 @@ def spa(full_path: str):
 
 if __name__ == "__main__":
     import uvicorn
+    host = os.environ.get("HOST", "127.0.0.1")
     port = int(os.environ.get("PORT", "8000"))
-    print(f"Traffic Management India -> http://127.0.0.1:{port}   (API docs: /docs)")
-    uvicorn.run(app, host="127.0.0.1", port=port, log_level="warning")
+    print(f"Saarthi running at http://{host}:{port}   (API docs: /docs)   Ctrl+C to stop")
+    uvicorn.run(app, host=host, port=port, log_level="warning")

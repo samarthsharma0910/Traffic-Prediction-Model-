@@ -6,12 +6,14 @@ page request ever waits on the network. If the API is unreachable the last good
 data is kept; if there never was any, precipitation falls back to 0 (dry) and
 the UI is told weather is unavailable.
 """
+import logging
 import threading
 import time
 from datetime import datetime
 
 import requests
 
+log = logging.getLogger("saarthi.weather")
 API = "https://api.open-meteo.com/v1/forecast"
 CHUNK = 40
 REFRESH_SECONDS = 30 * 60
@@ -40,12 +42,12 @@ class WeatherService:
             try:
                 self.refresh()
             except Exception as exc:  # never let the thread die
-                print(f"[weather] refresh failed: {exc}")
+                log.warning("weather refresh failed: %s", exc)
             if self.on_refresh:
                 try:
                     self.on_refresh()
                 except Exception as exc:
-                    print(f"[weather] on_refresh failed: {exc}")
+                    log.warning("post-refresh warm-up failed: %s", exc)
             time.sleep(REFRESH_SECONDS)
 
     def refresh(self):

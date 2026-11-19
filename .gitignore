@@ -1,4 +1,21 @@
-node_modules/
+# secrets and local config
+.env
+
+# generated / local data (created automatically on first run)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# python
 __pycache__/
 *.pyc
-.env
+.venv/
+venv/
+.pytest_cache/
+
+# node
+node_modules/
+
+# misc
+*.log
+.DS_Store

@@ -21,7 +21,7 @@ from sklearn.ensemble import HistGradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 
 from config import LEVEL_THRESHOLDS, MODEL_DIR, now_ist
-from features import CAT_MASK, FEATURES, zone_columns
+from features import CAT_MASK, FEATURES
 from traffic_sim import simulate
 
 BUNDLE_PATH = os.path.join(MODEL_DIR, "traffic_model.joblib")

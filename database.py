@@ -132,6 +132,16 @@ def seed_locations(zones):
     return n
 
 
+def ensure_seeded():
+    """
+    Make sure the schema exists and the zone table matches data/zones.json. Cheap and idempotent (an upsert),
+    so a fresh checkout starts with just `python app.py` - no separate setup step for the database.
+    """
+    from cities import build_zones
+    init_database()
+    seed_locations(build_zones())
+
+
 def load_zones():
     conn = get_connection()
     rows = [dict(r) for r in conn.execute("SELECT * FROM Location ORDER BY location_id")]

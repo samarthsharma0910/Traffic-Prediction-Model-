@@ -1,6 +1,6 @@
 """
-Smoke + correctness tests.  Run from the project root:  python -m pytest tests -q
-(or `python tests/test_app.py`). Needs `python setup.py` to have been run.
+Smoke + correctness tests.  Run from the project root:  python tests/test_app.py
+Needs `pip install -r requirements-dev.txt` (httpx for the test client).
 """
 import os
 import sys
@@ -121,6 +121,20 @@ class ApiTests(unittest.TestCase):
         n = self.c.get("/api/nearest?lat=28.62&lon=77.2").json()
         self.assertEqual(n["city"], "Delhi")
         self.assertEqual(self.c.get("/api/nearest?lat=0&lon=0").status_code, 404)
+
+    def test_security_headers_and_branding(self):
+        r = self.c.get("/healthz")
+        self.assertEqual(r.headers["x-content-type-options"], "nosniff")
+        self.assertEqual(r.headers["x-frame-options"], "DENY")
+        self.assertIn("Saarthi", self.c.get("/openapi.json").json()["info"]["title"])
+
+    def test_database_is_seeded_idempotently(self):
+        from database import ensure_seeded, load_zones
+        before = len(load_zones())
+        ensure_seeded()
+        ensure_seeded()
+        self.assertEqual(len(load_zones()), before)
+        self.assertEqual(before, 664)
 
     @staticmethod
     def _zone(city, kind):
